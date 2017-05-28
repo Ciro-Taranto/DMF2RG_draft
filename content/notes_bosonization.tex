@@ -1,0 +1,254 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{color}
+\bibliographystyle{plain}
+\author{}
+%opening
+\title{{\bf Some ideas to improve the applicability of DMF$^2$RG to strong coupling by using a partial bosonization }}
+
+\begin{document}
+
+\maketitle
+
+Divergent interactions (and hence the associated susceptibilities) in purely fermionic language can be associated to bosons of vanishing mass. 
+This is part of the phenomenology of spontaneous symmetry breaking. 
+
+%The situation is well understood, for example, in the case of  a uniform susceptibility (i.e. $\chi_{\mathbf{q}=0}$), or in the case of the susceptibility associated to some special vector $\mathbf{q}$. 
+
+At the Mott transition the situation is more involved. In fact, as it has been shown by means of DMFT in infinite dimensions (and imposing that no antiferromagnetism takes place) the local susceptibility increases as the Hubbard $U$ is increased towards the critical $U_c$ value, until it reaches the asymptotic value $1/T$, typical of Pauli-like susceptibility. Hence the local spin-susceptibility diverges at vanishing temperature, while the uniform susceptibility stays finite. This physics is beautifully described in Ref. \cite{Georges1996}. 
+
+The $0$-temperature divergence of the spin-suscpetibility  can be associated with the large spin degeneracy in the insulating phase, which makes the perturbation theory in this regime very hard. 
+
+Focusing on the one-particle irreducible vertex, a divergent local spin susceptibility is associated to a divergence of the DMFT impurity vertex for some set of frequencies, namely on the main frequency diagonal. 
+If we wish to assume this vertex as the starting point of an fRG flow,  its divergence from the very beginning will create problems.  
+
+Hence, in the following I propose to introduce a boson that decouples the interaction and (hopefully) take cares of the divergence. 
+However I will not integrate out the fermionic degrees of freedom nor I will rebosonize the action. 
+Rather I will keep the four-fermion interaction, in accordance with the physical picture of elementary excitations of fermionic origin in the presence of local magnetic moment partially or totally formed. 
+
+Let me remark that while the susceptibility and the vertex become divergent on the insulating side of the Mott transition (where in turns, due to the aforementioned degenerancy the perturbation theory is more questionable), I want to apply the method that I am going to present also on the metallic side of (but close to) the Mott transition, where the physical picture of fermionic excitations and bosonic magetic moments  is more likely to be justified. 
+
+\section*{Bosonization of the action} 
+
+Let us consider an action in the form: 
+\begin{eqnarray}
+\label{slattice} 
+\mathcal{S}_{\mathrm{lattice}} = -(\overline \psi, [G^0_{\mathrm{lattice}}]^{-1}\psi)+\mathcal{S}_{\mathrm{int}},
+\end{eqnarray}
+with $\mathcal{S}_{\mathrm{int}}=U\int_0^\beta d\tau \overline \psi_{i\uparrow}(\tau) \psi_{i\uparrow}(\tau)\overline \psi_{i\downarrow}(\tau) \psi_{i\downarrow}(\tau)$. 
+$\psi$ and $\overline \psi$ are Grassman's variables associated to the destruction or creation of a fermion carrying all the quantum numbers like spin projection, and (imaginary) frequency-momentum or (imaginary) time-position , $(*,*)$ is a scalar product, $U$ the value of the Hubbard interaction, $\beta$ the inverse temperature. 
+For later convenience let us introduce also the DMFT action in the form: 
+\begin{equation}
+\label{sdmft}
+\mathcal{S}_{\mathrm{DMFT}} = -(\overline \psi, [\mathcal{G}_{\mathrm{aim}}]^{-1}\psi)+\mathcal{S}_{\mathrm{int}}. 
+\end{equation}
+Although the $\mathcal{G}_{\mathrm{aim}}$ is local, the Grassman's variables still bring a dependence on a site index $i$, and in the round brackets a (trivial) summation $\sum_i$ is intended. 
+
+Let us bosonize the action by introducing a boson associated with the local magnetic moment $\langle s^z_i s^z_i \rangle$, $s^z_i = \overline \psi_{i\uparrow}\psi_{i\uparrow}-\overline \psi_{i\downarrow}\psi_{i\downarrow}$ . 
+This suggests to decompose the Hubbard interaction as: 
+\begin{equation}
+Un_{i\uparrow}n_{i\downarrow}=-\frac{U}{2}s^z_i s^z_i.  
+\end{equation}   
+Here I am explicitly making an arbitrary choice, completely neglecting the Fierz ambiguity\cite{Baier2004}. 
+I decouple the interaction by means of an Hubbard-Stratonovich transformation introducing a real bosonic field $\phi_i$: 
+\begin{equation}
+\label{slatticeb}
+\mathcal{S}^B_{\mathrm{lattice}}= -(\overline \psi, [G^0_{\mathrm{lattice}}]^{-1}\psi)-\sum_i(\phi_i,U^{-1}\phi_i)+\sum_i \phi_i s^z_i.
+\end{equation}  
+Exactly the same operation can be performed at the level of the DMFT action
+\footnote{Remember to check signs and if a site index is necessary for the bosonic field!}: 
+\begin{equation}
+\label{sdmftb}
+\mathcal{S}^B_{\mathrm{DMFT}} = -(\overline \psi, [\mathcal{G}_{\mathrm{aim}}]^{-1}\psi)-\sum_i(\phi_i,U^{-1}\phi_i)+\sum_i \phi_i s^z_i.
+\end{equation} 
+%The actions (\ref{slatticeb}) is equivalent to solving (\ref{slattice}), as well for (\ref{sdmftb}) and (\ref{sdmft}). 
+In principle it is also possible to take the action (\ref{sdmftb}) as a reference for the flow aiming at the final action (\ref{slatticeb}). Since these two actions only differ by the Gaussian part, the same cutoff prescription of DMF$^2$RG \cite{Taranto2014} can be applied. 
+
+There is, however, a big difference: working with the purely fermionic actions in the 1PI-fRG framework \cite{Metzner2012}, requires to deal with fermionic vertex functions that are irreducible in the fermionic propagator lines. On the other hand in the partially bosonized theory one has to consider vertex functions irreducible in the fermionic {\sl and} in the bosonic propagators. This can be shown by functional derivation (performing a Legendre transform in both fermionic and bosonic variables) as it is done e.g. in \cite{Schuetz2004}, where also the functional RG equations are derived. 
+
+In the following I will not deal with the functional derivation of the vertex quantities and flow equations in the bosonized theory, deferring it to Ref. \cite{Schuetz2004}, but rather I will show diagrammatically the connection between the vertex functions in the fermionic and partially bosonized theory. 
+
+\subsection*{ Bosonized irreducible vertex} 
+
+In this section I will show how the four-fermions one-line irreducible vertex  in the bosonized theory $F^{(4,0)}_\phi$ can be expressed in terms of the one-particle irreducible vertex $F^{(4)}$ of the purely fermionic theory.
+
+I will proceed as follows: 
+\begin{itemize} 
+\item I will show the relation between $F^{(4)}$ and $F_\phi^{(4,0)}$ in a theory without spins. 
+By making diagrammatic considerations and by decomposing the Bethe-Salpeter equation I will prove that the following relation holds: 
+\begin{eqnarray}
+\label{bs_boso}
+F_\phi^{(4,0)}&=&\tilde\Gamma_{irr}
++\tilde \Gamma_{irr}  \circ (GG) \circ F_\phi^{(4,0)};
+\\ 
+\tilde \Gamma_{irr} & = &\Gamma_{irr} - U; 
+\end{eqnarray}
+where $\Gamma_{irr}$ is the purely fermionic irreducible vertex in the particle-hole channel\cite{Rohringer2012},  $\circ$ stands for a convolution, i.e. Eq. \ref{bs_boso} is a Bethe-Salpeter (BS) equation in the particle-hole channel completely analogous to the one fulfilled by the purely fermionic vertex: 
+\begin{equation} 
+\label{bs_fermi} 
+F^{(4)}=\Gamma_{irr}
++\Gamma_{irr} \circ (GG) \circ F^{(4)}, 
+\end{equation} 
+(in the following the equations are given in more extended form). 
+%This relations shows that if $\Gamma$ is finite (anticipating a bit what will follow let me mention that this seems to be the case for the "density" or "spin" irreducible vertex of Ref.  \cite{Schafer2013}), a divergence in $F^{(4)}$ generated by the reducible part of the BS equation (\ref{bs_fermi}) does not imply a divergence of $F_\phi^{(4,0)}$.  
+\item I will then reintroduce the complication associated with the spin-indexes. 
+\end{itemize}
+\paragraph{Spinless model} 
+
+\begin{figure}
+\includegraphics[scale=0.5]{dictionary.jpg}
+\caption{Diagrammatic elements used in the text. The Yukawa coupling already refers to the case of spin boson. For a density boson there is a plus sign. } \label{dictionary}
+
+\end{figure}
+Let us forget for a moment about the spin.
+%\footnote{The spin was forgotten for decades in the $GW$ community, we can do the same for a while. {\sl acid comment from Ciro.}} 
+
+Then there is no distinction between a decoupling with a "density" or a "spin" boson. 
+The only other possibility is decoupling in the pairing channel which might be interesting in other situations (e.g., attractive interaction) but is not of our concern here.
+
+%Let us first make some diagrammatic considerations about the four-fermion diagrams (one-line irreducible or not) that can be generated in the bosonized theory.
+
+First,  {\sl reducible} objects, i.e., the connected Green's function generated by the purely fermionic and bosonized theory are identical. 
+This is because the Generating functional \cite{Negele1998} is left unchanged by the introduction of the bosons in the theory, and the derivatives are evaluated for vanishing values of the sources. 
+
+The irreducible contributions instead might be very complicated to relate, due to the nontrivial Legendre transformation that is needed to obtain the effective action in the two theories. 
+
+This is why a diagrammatic approach wiill be preferred to the functional one. 
+It can be proved (e.g., in \cite{Schuetz2004}) that the effective action in the bosonized theory, obtained by the usual Legendre transform performed with resect to all the fields, generates diagram irreducible in both Fermionic and bosonic line. 
+
+Let us call the generating functional of the fermionic action $\Gamma[\overline \psi, \psi]$. 
+The four-fermion vertex is then given by 
+\begin{equation}
+F^{(4)}=\frac{\delta ^{(4)} \Gamma[\overline\psi, \psi]}{\delta\overline \psi \psi\overline \psi \psi }.
+\end{equation} 
+In an similar way the four-fermion vertex in the bosonized theory is: 
+\begin{equation}
+F_\phi^{(4,0)}\frac{\delta ^{(4)} \Gamma_\phi[\overline\psi, \psi,\phi]}{\delta\overline \psi \psi\overline \psi \psi },
+\end{equation} 
+having called  $\Gamma_\phi[\overline\psi,\psi,\phi]$ the effective action in the bosonized theory. 
+
+Any given diagram in $F^{(4)}$, irreducible in the fermionic propagators, can either be irreducible also in the bosonic propagator, or it can be reducible in it. In the former case it belongs also to $F^{(4,0)}_\phi$, in the latter at least a part of it can be written in the form of a tree-diagram and therefore it is contained in the bosonic propagator $W$. 
+Collecting all the possibilities we can write\footnote{I am suppressing all the arguments, it is not a big deal to reintroduce them}: 
+\begin{equation}
+\label{connection_without_SD}
+F^{(4)}=F^{(4,0)}_\phi+F_\phi^{(2,1)} W F_\phi^{(2,1)}.
+\end{equation}  
+\begin{figure}
+\includegraphics[scale=0.5]{SD_figure.jpg}
+\caption{Schwinger-Dyson equation for the fermion-boson vertex. } \label{SD_figure}
+
+\end{figure}
+
+The vertex $F_\phi^{(2,1)}$ is the fully dressed fermion-boson interaction shown in Fig. \ref{dictionary}. It can be expressed in terms of $F_\phi^{(4,0)}$ using a Shwinger-Dyson equation\cite{Schuetz2004}: 
+\begin{equation}
+\label{SD_equation}
+F_\phi^{(2,1)} = \lambda + \lambda G G F_\phi^{(4,0)},   
+\end{equation}
+ $\lambda$ being the bare Fermion-Boson vertex in the theory. For the spinless case one can assume $\lambda(1,2;3)=1$ ($1,2$ being fermionic multi-indexes and $3$ the bosonic argument), while for the spin boson introduced above one will have $\lambda (1,2;3)=1/2( \delta_{\sigma_1\uparrow}\delta_{\sigma_2\uparrow}-\delta_{\sigma_1\downarrow}
+\delta_{\sigma_2\downarrow})$. 
+\begin{figure}
+\includegraphics[scale=0.5]{five_terms.jpg}
+\caption{Connection between the 4-fermion vertex in the two purely fermionic and in the partially bosonized theory. } \label{five_terms}
+
+\end{figure}
+Equation (\ref{SD_equation}) is shown in Fig. \ref{SD_figure}. 
+Inserting (\ref{SD_equation}) in (\ref{connection_without_SD}) one gets the equation shown in Fig. \ref{five_terms}:
+\begin{equation}
+\label{five_terms_eq} 
+F^{(4)} = F_\phi^{(4,0)} + \lambda W \lambda +  F_\phi^{(4,0)} G G  \lambda W \lambda G G F_\phi^{(4,0)}+F_\phi^{(4,0)} G G  \lambda W \lambda+\lambda W \lambda G G F_\phi^{(4,0)}.  
+\end{equation}
+\begin{figure}
+\includegraphics[scale=0.5]{BS_fermionic.jpg}
+\caption{Bethe-Salpeter equation in the particle-hole channel for the 4-fermions vertex. 
+Definition of the $\tilde \Gamma_irr$. } \label{BS_fermionic}
+
+\end{figure}
+Let us now consider the BS equation in the particle hole channel for the 4-fermions vertex: 
+\begin{equation}
+\label{BS_fermionic_eq} 
+F^{(4)} = \Gamma_{irr} + \Gamma_{irr} \circ GG \circ F^{(4)},  
+\end{equation}  
+where $\Gamma_{irr}$ is the irreducible vertex in the interaction. Let us separate the bare interaction from the rest: 
+\begin{equation}
+\label{removing_U}
+\Gamma_{irr}= \tilde \Gamma_{irr}+U. 
+\end{equation} 
+Having removed $U$ from the irreducible vertex, we can generate all the tree diagrams (reducible in the interaction line) by means of a Dyson equation: 
+\begin{eqnarray}
+P& =& G\circ G + \tilde \Gamma_{irr}, \\
+W & = & U + U P W  . 
+\end{eqnarray}  
+$P$ is the polarization operator.
+% To avoid double counting in $\Gamma$ it was necessary to remove the $U$ from the irreducible vertex $\Gamma_{irr}$.
+It is easy to see that $W$ contains diagrams reducible in the interaction that start and end with an interaction line (equivalently, with a bosonic propagator), and can be identified with the dressed bosonic propagator of the bosonized theory whence the attribution of the symbol $W$. 
+In order to further rearrange the Bethe-Salpeter equation let us introduce the quantity\footnote{This quantity is called in the $GW$ community one-particle irreducible vertex {\sl irreducible in the interaction}.} $\tilde F^{(4)} = \tilde \Gamma_{irr} + \tilde \Gamma_{irr}\circ G G\circ \tilde F^{(4)}$.
+With the aid of the quantities defined above one can rewrite the Bethe-Salpeter equation (\ref{BS_fermionic_eq}) as: 
+\begin{equation}
+\label{also_old}  
+F^{(4)} = \tilde F^{(4)} + \lambda W \lambda + \tilde F^{(4)} G G  \lambda W \lambda G G \tilde F^{(4)}+\tilde F^{(4)} G G  \lambda W \lambda+ \lambda W \lambda G G \tilde F^{(4)}.  
+\end{equation}  
+Comparing with Eq. (\ref{five_terms_eq}), we can identify: 
+\begin{equation}
+F_\phi^{(4,0)} = \tilde F^{(4)}. 
+\end{equation} 
+
+A more formal derivation of Eq. (\ref{also_old}) is given in the Appendix of \cite{Held2011}.
+A graphic representation is given in Fig. (\ref{ridondante}). 
+\begin{figure} 
+\includegraphics[scale=0.5 ]{redondant.jpg}
+\caption{Diagrammatic depiction of some of the equation discussed in the text.} \label{ridondante} 
+
+\end{figure} 
+\begin{figure} 
+\includegraphics[scale=0.5]{diagrammatic_content.jpg}
+\caption{Examples of diagrams included or excluded in the irreducible vertex in the particle hole channel and in the four-fermion vertex in the bosonic theory.} \label{aposteriori} 
+
+\end{figure} 
+{\sl A  posteriori}  the identification of $F^{(4,0)}_\phi$ with an object built by generating particle-hole reducible diagrams from the irreducible vertex $\Gamma_{irr}$ {\sl but} excluding those that contain an interaction line could have done from the beginning by comparing the diagrams. 
+Some examples are shown in Fig. \ref{aposteriori}. In general the two-particle irreducibility concept is much stronger than the concept of irreducibility in the bosonic lines.  
+
+\paragraph{Spin indexes}  
+\emph{Dear reader, so far so good! Until now I am quite sure of what I have written. In what follows I am not so sure any longer, so please take it as a very error prone preliminary version. In particular I am not so sure of how I have to couple the bosonic propagation line (which is naturally connected to a spin-density) to only one spin projection, i.e. to something that does not fit with the definition of the fermion-boson vertex $\lambda$.}
+
+Let us now tackle the problem of the spin. It is in this respects that one sees the difference between bosonizing the action by means of spin-boson $1/2 (n_\uparrow-n_\downarrow)$ or by means of a charge-boson $1/2 (n_\uparrow + n_\downarrow)$.
+
+Let us specifically consider Eq. (\ref{five_terms_eq}) for the cases of $F_{\uparrow\uparrow}$ and $F_{\uparrow\downarrow}$, and expand the bare fermion-boson vertex $\lambda$ in the internal lines (\emph{what do we do when it is external?} in terms of spin-up and spin-down. By doing so we generate the terms shown in Figure (\ref{spindependence}). 
+\begin{figure}
+\includegraphics[scale=0.5]{spin_dependence.jpg}
+\caption{Diagrams generated by explicitating the spin indexes in Eq. (\ref{five_terms_eq}), for the two cases up-up and up-down. 
+It is usefu to use the $SU(2)$ symmetry: $F_{\phi,\sigma_1\sigma_2}^{(4,0)} = F_{\phi,\overline{\sigma_1\sigma_2}}^{(4,0)}   $ and to collect the contributions of the kind $F_{\phi,\uparrow\uparrow}^{(4,0)} +F_{\phi,\uparrow\downarrow}^{(4,0)}=F_{\phi,m}^{(4,0)}$.} \label{spindependence} 
+
+\end{figure}  
+
+Now let us sum the up-up and up-down vertexes to form the "density" (or charge) and the "magnetic" (or spin) channels\cite{Rohringer2012} $F_d^{(4)} = F_{\uparrow\uparrow}^{(4)}+F_{\uparrow\downarrow}^{(4)}$, $F_m^{(4)} = F_{\uparrow\uparrow}^{(4)}-F_{\uparrow\downarrow}^{(4)}$. 
+The summation is shown in Figure (\ref{density_and_magnetic}). One can see that several terms cancel and obtain the final result: 
+\begin{eqnarray}
+F_{\phi,d}^{(4,0)}  & = & F_d^{(4)} - W_{?} \label{doubt} \\ 
+F_{\phi,m}^{(4,0)} & = & \tilde F_m^{(4)}.    
+\end{eqnarray}  
+
+\textcolor{red} {Here comes my doubt!} My week ends with this question: how do I have to couple the spin-density boson only to a spin up or to a spin down density, as it is required for writing the contribution of $W$ to $F_{\sigma\sigma'}$? If there really is a term $-W$ in Eq. (\ref{doubt}), then it is plausible that it will at least partially cancel the large value observed on the main diagonal of $F_d$ (afterall Nils has proved that this diagonal is a susceptibility).
+If there is no such a contribution I do not see how introducing the boson might help. My judgment on this question is influenced by the fact that I hope that $W$ is there!  
+
+\begin{figure} 
+\includegraphics[scale=0.5]{spin_boson.jpg}
+\caption{Contributions to the density and to the magnetic channel.} \label{density_and_magnetic}    
+
+\end{figure} 
+   
+%\begin{equation}
+%F_{\uparrow\downarrow}^{\nu\nu'\omega_{xph}}=\Gamma_{xph\uparrow\downarrow}
+%^{\nu\nu'  \omega_{xph}}+\frac{1}{\beta}\sum_{\nu_1}
+%\Gamma_{xph,\uparrow\downarrow}^{\nu\nu_1\omega_{xph}}
+%G(\nu_1)G(\nu_1+\omega_{xph}) F_{\uparrow\downarrow}^{\nu_1\nu'\omega_{xph}}
+%\end{equation}   
+
+
+\vfill\eject
+\bibliography{thesis_biblio}
+ 
+\end{document}

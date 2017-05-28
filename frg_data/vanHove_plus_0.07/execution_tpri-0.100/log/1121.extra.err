@@ -1,0 +1,4 @@
+Cannot open display "localhost:10.0"
+Running fRG flow
+Cannot solve for dMu in bisection method!!0x2049068ABORTING: rank 0: file include/proj/SelfEnergy.hpp: finddMuBisection():901: Cannot find chemical potential with bisection method!
+application called MPI_Abort(MPI_COMM_WORLD, 17) - process 0

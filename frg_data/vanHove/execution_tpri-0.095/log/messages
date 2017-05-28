@@ -1,0 +1,2059 @@
+==52372== [ 0 ][   0.04812] init():131: Rank 0: Start program from node: idefix60
+==52372== [ 0 ][   0.04846] init():135: Rank 0: Total nodes: 1
+==52372== [ 0 ][   0.04881] init():138: Rank 0: Hubbard interaction, U: 1.000000
+==52372== [ 0 ][   0.04909] init():139: Rank 0: Inverse temperature, beta: 50.000000
+==52372== [ 0 ][   0.04933] init():140: Rank 0: Chemical potential, mu: 0.000000
+==52372== [ 0 ][   0.04956] init():141: Rank 0: Hopping parameter, t: 0.250000
+==52372== [ 0 ][   0.04989] init():142: Rank 0: NN-Hopping parameter, tpri: -0.095000
+==52372== [ 0 ][   0.05021] init():145: Rank 0: Head compiled: Apr 19 2017 16:06:22
+==52372== [ 0 ][   0.05050] init():146: Rank 0: Compilation mode: release
+==52372== [ 0 ][   0.05082] init():147: Rank 0: Program executed: May 14 2017 07:38:54
+==52372== [ 0 ][   0.05109] init():148: Rank 0: Total number of patches for vertex: 29
+==52372== [ 0 ][   0.05136] init():149: Rank 0: Using scale type: log(lambda)
+==52372== [ 0 ][   0.05162] init():150: Rank 0: ODE solver type: adaptive
+==52372== [ 0 ][   0.05190] init():151: Rank 0: Initial scale: 0.000000
+==52372== [ 0 ][   0.05218] init():152: Rank 0: Final scale: -12.000000
+==52372== [ 0 ][   0.05243] init():153: Rank 0: Flow type: fRG
+==52372== [ 0 ][   0.05267] init():157: Rank 0: Cutoff type Interacting
+==52372== [ 0 ][   0.05295] init():158: Rank 0: Number of freq. for DMFT self energy: 156
+==52372== [ 0 ][   0.05324] init():159: Rank 0: Number of freq. for self energy: 64
+==52372== [ 0 ][   0.05350] init():160: Rank 0: Number of freq. for DMFTvertex (bos): 77
+==52372== [ 0 ][   0.05382] init():161: Rank 0: Number of freq. for vertex (bos): 24 24 24
+==52372== [ 0 ][   0.05411] init():163: Rank 0: Matsu sum for self energy: iMin 48 iMax 64
+==52372== [ 0 ][   0.05440] init():164: Rank 0: Matsu sum for Vertex: iSum 70
+==52372== [ 0 ][   0.05470] init():165: Rank 0: Maxeval for integration: 850000
+==52372== [ 0 ][   0.05499] init():166: Rank 0: Threshold for flow 300.00000
+==52372== [ 0 ][   0.05532] init():179: Rank 0: BZ integration method: hcubature
+==52372== [ 0 ][   0.05563] main():350: Rank 0: argv: ./dmf2rg_scan --frg --starting-filling 0.61411 --tp -0.09500 --U 1.00000 --beta 50.00000 --no-self-energy-flow --threshold 300.00000 --threshold-vertex 300.00000 
+==52372== [ 0 ][   0.05592] main():380: Rank 0: Asking for (circa): 218356544 bytes
+==52372== [ 0 ][   0.13088] main():446: Rank 0: Vertex total component: 3411821
+==52372== [ 0 ][   0.13138] setInit():68: Rank 0: Read compiled: Apr 19 2017 15:42:22
+==52372== [ 0 ][   0.28242] setInit():111: Rank 0: Init data
+==52372== [ 0 ][   0.28432] main():479: Rank 0: Calculated initial dMu: 0.000000
+==52372== [ 0 ][   0.28471] main():480: Rank 0: Original mu from DMFT: 0.000000
+==52372== [ 0 ][   0.28502] solver():878: Rank 0: Solver compiled: Apr 20 2017 17:58:45
+==52372== [ 0 ][   3.51281] solver():953: Rank 0: fRG: found mu, filling: -0.3798828125 0.6151415720
+==52372== [ 0 ][   3.51355] solver():958: Rank 0: Starting filling <n> from dmft data: 0.614110
+==52372== [ 0 ][   3.75304] solver():961: Rank 0: Initial filling <n> from sum_k,iw G_dmft(k,iw): 0.615142
+==52372== [ 0 ][   4.17533] solver():986: Rank 0: Chi0(lam=1): 0.0000000 +i 0.0000000
+==52372== [ 0 ][   4.37600] solver():1007: Rank 0: Memory used: 753 MB
+==52372== [ 0 ][   4.37652] operator()():634: Rank 0: Accepted step at: 1.000000
+==52372== [ 0 ][   4.51573] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.0000000 +i 0.0000000
+==52372== [ 0 ][   4.56504] operator()():706: Rank 0: Max of Re SC-s:     0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.61423] operator()():709: Rank 0: Max of Re SC-d:     0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.66358] operator()():714: Rank 0: Max of Re Density:  0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.66412] operator()():715: Rank 0: Min of Re Density:  0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.66453] operator()():716: Rank 0: Max of Im Density:  0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.66495] operator()():717: Rank 0: Min of Im Density:  0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.71116] operator()():722: Rank 0: Max of Re Magnetic: 0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.71165] operator()():723: Rank 0: Min of Re Magnetic: 0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.71190] operator()():724: Rank 0: Max of Im Magnetic: 0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.71218] operator()():725: Rank 0: Min of Im Magnetic: 0.0000000 found at: 0 0 0 0
+==52372== [ 0 ][   4.71248] operator()():730: Rank 0: Filling <n>: 1.000000000000
+==52372== [ 0 ][   4.71279] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][   5.17553] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][   5.22145] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][   5.26481] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][   5.31435] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][   5.36992] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][   5.42633] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][   5.48515] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][  10.51099] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L1.h5
+==52372== [ 0 ][  10.64608] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 0.000000
+==52372== [ 0 ][  10.64779] operator()():843: Rank 0: Chi magnetic max Re: 0.00000
+==52372== [ 0 ][  10.64815] operator()():844: Rank 0: Chi dwave_si max Re: 0.00000
+==52372== [ 0 ][  10.64846] operator()():845: Rank 0: Chi density  max Re: 0.00000
+==52372== [ 0 ][  10.64876] operator()():846: Rank 0: Chi density  min Re: 0.00000
+==52372== [ 0 ][  10.64902] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 0.00000 0.00000
+==52372== [ 0 ][  10.64926] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.00000 0.00000
+==52372== [ 0 ][  10.64951] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 0.00000 0.00000
+==52372== [ 0 ][  10.64979] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : 0.00000 0.00000
+==52372== [ 0 ][  10.70535] operator()():314: Rank 0: Computing rhs at: 1.000000
+==52372== [ 0 ][  11.33443] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][  11.33503] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][  13.25959] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][  14.63845] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][  16.66112] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][  19.28830] operator()():314: Rank 0: Computing rhs at: 0.980199
+==52372== [ 0 ][  19.92462] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][  19.92534] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][  31.85276] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][  41.93219] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][  54.02530] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][  66.24480] operator()():314: Rank 0: Computing rhs at: 0.970446
+==52372== [ 0 ][  66.88631] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][  66.88704] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][  81.59275] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][  94.02314] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 108.83665] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 123.78651] operator()():314: Rank 0: Computing rhs at: 0.941765
+==52372== [ 0 ][ 124.40851] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 124.40913] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 144.30641] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 161.64241] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 181.67929] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 201.86620] operator()():314: Rank 0: Computing rhs at: 0.904837
+==52372== [ 0 ][ 202.51822] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 202.51883] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 227.29622] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 249.05795] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 273.99237] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 299.06631] operator()():314: Rank 0: Computing rhs at: 0.916219
+==52372== [ 0 ][ 299.73779] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 299.73834] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 323.14297] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 343.68719] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 367.17422] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 391.18597] operator()():634: Rank 0: Accepted step at: 0.904837
+==52372== [ 0 ][ 391.58636] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.0106131 +i 0.0000000
+==52372== [ 0 ][ 391.63531] operator()():706: Rank 0: Max of Re SC-s:     0.0321493 found at: 0 0 0 -1
+==52372== [ 0 ][ 391.68280] operator()():709: Rank 0: Max of Re SC-d:     0.0000000 found at: 0 0 0 3
+==52372== [ 0 ][ 391.72995] operator()():714: Rank 0: Max of Re Density:  0.0137144 found at: 12 -1 0 0
+==52372== [ 0 ][ 391.73047] operator()():715: Rank 0: Min of Re Density:  -0.0004162 found at: 0 0 -1 0
+==52372== [ 0 ][ 391.73077] operator()():716: Rank 0: Max of Im Density:  0.0000655 found at: 16 -1 0 0
+==52372== [ 0 ][ 391.73108] operator()():717: Rank 0: Min of Im Density:  -0.0000655 found at: 16 1 0 0
+==52372== [ 0 ][ 391.77783] operator()():722: Rank 0: Max of Re Magnetic: 0.0140092 found at: 12 -1 24 0
+==52372== [ 0 ][ 391.77838] operator()():723: Rank 0: Min of Re Magnetic: -0.0003381 found at: 0 0 -24 -23
+==52372== [ 0 ][ 391.77872] operator()():724: Rank 0: Max of Im Magnetic: 0.0000231 found at: 16 -3 0 0
+==52372== [ 0 ][ 391.77902] operator()():725: Rank 0: Min of Im Magnetic: -0.0000231 found at: 16 3 0 0
+==52372== [ 0 ][ 391.77933] operator()():730: Rank 0: Filling <n>: 0.963376719310
+==52372== [ 0 ][ 391.77966] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][ 392.17435] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][ 393.19211] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][ 394.17484] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][ 395.21396] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][ 396.19495] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][ 397.20905] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][ 398.22668] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][ 403.35748] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.904837.h5
+==52372== [ 0 ][ 403.49301] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 0.032149
+==52372== [ 0 ][ 403.49484] operator()():843: Rank 0: Chi magnetic max Re: 0.01491
+==52372== [ 0 ][ 403.49515] operator()():844: Rank 0: Chi dwave_si max Re: 0.05256
+==52372== [ 0 ][ 403.49551] operator()():845: Rank 0: Chi density  max Re: 0.01447
+==52372== [ 0 ][ 403.49585] operator()():846: Rank 0: Chi density  min Re: -0.00033
+==52372== [ 0 ][ 403.49622] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 0.00991 -0.00000
+==52372== [ 0 ][ 403.49655] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.00972 -0.00000
+==52372== [ 0 ][ 403.49692] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 0.05256 0.00000
+==52372== [ 0 ][ 403.49713] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : 0.03171 0.00000
+==52372== [ 0 ][ 403.49854] operator()():314: Rank 0: Computing rhs at: 0.904837
+==52372== [ 0 ][ 404.08884] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 404.08954] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 428.87491] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 450.64435] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 475.51068] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 500.50192] operator()():314: Rank 0: Computing rhs at: 0.874336
+==52372== [ 0 ][ 501.15063] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 501.15128] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 529.15955] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 553.89984] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 582.00330] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 610.23236] operator()():314: Rank 0: Computing rhs at: 0.859473
+==52372== [ 0 ][ 610.88776] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 610.88831] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 640.24097] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 666.27277] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 695.74731] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 725.37830] operator()():314: Rank 0: Computing rhs at: 0.816382
+==52372== [ 0 ][ 726.05658] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 726.05725] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 758.96259] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 788.34167] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 821.31274] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 854.51660] operator()():314: Rank 0: Computing rhs at: 0.762270
+==52372== [ 0 ][ 855.22369] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 855.22424] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][ 891.93066] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][ 924.60797] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][ 961.44208] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][ 998.50763] operator()():314: Rank 0: Computing rhs at: 0.778783
+==52372== [ 0 ][ 999.19897] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][ 999.19971] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][1034.85559] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][1066.48193] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][1102.20398] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][1138.51624] operator()():634: Rank 0: Accepted step at: 0.762270
+==52372== [ 0 ][1139.23730] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.0631538 +i -0.0000000
+==52372== [ 0 ][1139.28625] operator()():706: Rank 0: Max of Re SC-s:     0.1784147 found at: 0 0 0 -1
+==52372== [ 0 ][1139.33521] operator()():709: Rank 0: Max of Re SC-d:     0.0000005 found at: 0 0 0 -9
+==52372== [ 0 ][1139.38257] operator()():714: Rank 0: Max of Re Density:  0.0820771 found at: 12 -1 0 0
+==52372== [ 0 ][1139.38318] operator()():715: Rank 0: Min of Re Density:  -0.0058599 found at: 0 0 -1 0
+==52372== [ 0 ][1139.38354] operator()():716: Rank 0: Max of Im Density:  0.0024883 found at: 16 -1 0 0
+==52372== [ 0 ][1139.38391] operator()():717: Rank 0: Min of Im Density:  -0.0024875 found at: 16 1 0 0
+==52372== [ 0 ][1139.43066] operator()():722: Rank 0: Max of Re Magnetic: 0.0937858 found at: 12 -1 24 0
+==52372== [ 0 ][1139.43103] operator()():723: Rank 0: Min of Re Magnetic: -0.0021907 found at: 0 0 -16 -1
+==52372== [ 0 ][1139.43127] operator()():724: Rank 0: Max of Im Magnetic: 0.0009707 found at: 16 -3 0 0
+==52372== [ 0 ][1139.43152] operator()():725: Rank 0: Min of Im Magnetic: -0.0009717 found at: 16 3 0 0
+==52372== [ 0 ][1139.43188] operator()():730: Rank 0: Filling <n>: 0.908507609237
+==52372== [ 0 ][1139.43225] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][1139.90222] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][1142.43335] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][1144.99170] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][1147.49500] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][1150.10327] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][1152.85181] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][1155.67639] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][1160.79907] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.76227.h5
+==52372== [ 0 ][1160.93469] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 0.178415
+==52372== [ 0 ][1160.93677] operator()():843: Rank 0: Chi magnetic max Re: 0.10181
+==52372== [ 0 ][1160.93701] operator()():844: Rank 0: Chi dwave_si max Re: 0.32718
+==52372== [ 0 ][1160.93726] operator()():845: Rank 0: Chi density  max Re: 0.08477
+==52372== [ 0 ][1160.93750] operator()():846: Rank 0: Chi density  min Re: -0.00245
+==52372== [ 0 ][1160.93787] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 0.06497 -0.00000
+==52372== [ 0 ][1160.93811] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.05775 -0.00000
+==52372== [ 0 ][1160.93848] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 0.32718 0.00000
+==52372== [ 0 ][1160.93884] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : 0.16920 0.00000
+==52372== [ 0 ][1160.94043] operator()():314: Rank 0: Computing rhs at: 0.762270
+==52372== [ 0 ][1161.64221] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][1161.64282] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][1198.34961] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][1231.01331] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][1267.88269] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][1304.92688] operator()():314: Rank 0: Computing rhs at: 0.700114
+==52372== [ 0 ][1305.76697] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][1305.76758] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][1346.12341] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][1381.96301] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][1422.60925] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][1463.34583] operator()():314: Rank 0: Computing rhs at: 0.670964
+==52372== [ 0 ][1464.26367] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][1464.26440] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][1506.05017] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][1543.24463] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][1585.41919] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][1627.68433] operator()():314: Rank 0: Computing rhs at: 0.590594
+==52372== [ 0 ][1628.92480] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][1628.92529] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][1674.36060] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][1714.76794] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][1760.32959] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][1806.14758] operator()():314: Rank 0: Computing rhs at: 0.498207
+==52372== [ 0 ][1807.97424] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][1807.97485] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][1856.75598] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][1900.17175] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][1949.05652] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][1998.09875] operator()():314: Rank 0: Computing rhs at: 0.525408
+==52372== [ 0 ][1999.71008] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][1999.71069] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][2047.46265] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][2090.05371] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][2138.01343] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][2186.46411] operator()():634: Rank 0: Accepted step at: 0.498207
+==52372== [ 0 ][2187.51001] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.2816039 +i 0.0000000
+==52372== [ 0 ][2187.55933] operator()():706: Rank 0: Max of Re SC-s:     0.5968104 found at: 0 0 0 1
+==52372== [ 0 ][2187.60791] operator()():709: Rank 0: Max of Re SC-d:     0.0000458 found at: 0 0 0 -5
+==52372== [ 0 ][2187.65552] operator()():714: Rank 0: Max of Re Density:  0.3327218 found at: 12 -1 0 0
+==52372== [ 0 ][2187.65601] operator()():715: Rank 0: Min of Re Density:  -0.1337609 found at: 0 0 -1 0
+==52372== [ 0 ][2187.65649] operator()():716: Rank 0: Max of Im Density:  0.0530421 found at: 16 -1 0 0
+==52372== [ 0 ][2187.65674] operator()():717: Rank 0: Min of Im Density:  -0.0529930 found at: 16 1 0 0
+==52372== [ 0 ][2187.70337] operator()():722: Rank 0: Max of Re Magnetic: 0.5936706 found at: 12 -1 24 0
+==52372== [ 0 ][2187.70386] operator()():723: Rank 0: Min of Re Magnetic: -0.0149470 found at: 0 0 20 1
+==52372== [ 0 ][2187.70435] operator()():724: Rank 0: Max of Im Magnetic: 0.0233960 found at: 19 -9 0 0
+==52372== [ 0 ][2187.70459] operator()():725: Rank 0: Min of Im Magnetic: -0.0237110 found at: 19 9 0 0
+==52372== [ 0 ][2187.70483] operator()():730: Rank 0: Filling <n>: 0.806880601159
+==52372== [ 0 ][2187.70508] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][2189.29810] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][2194.52026] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][2199.36646] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][2204.33789] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][2209.47876] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][2214.73315] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][2220.09912] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][2225.21143] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.498207.h5
+==52372== [ 0 ][2225.34668] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 0.596810
+==52372== [ 0 ][2225.34863] operator()():843: Rank 0: Chi magnetic max Re: 0.59877
+==52372== [ 0 ][2225.34912] operator()():844: Rank 0: Chi dwave_si max Re: 1.46730
+==52372== [ 0 ][2225.34961] operator()():845: Rank 0: Chi density  max Re: 0.26369
+==52372== [ 0 ][2225.35010] operator()():846: Rank 0: Chi density  min Re: -0.05339
+==52372== [ 0 ][2225.35034] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 0.35697 -0.00003
+==52372== [ 0 ][2225.35083] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.22499 -0.00000
+==52372== [ 0 ][2225.35107] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 1.46730 0.00000
+==52372== [ 0 ][2225.35132] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : 0.36470 0.00003
+==52372== [ 0 ][2225.35303] operator()():314: Rank 0: Computing rhs at: 0.498207
+==52372== [ 0 ][2227.16479] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][2227.16553] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][2275.89087] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][2319.48853] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][2368.34424] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][2417.42212] operator()():314: Rank 0: Computing rhs at: 0.440218
+==52372== [ 0 ][2420.01538] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][2420.01636] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][2470.49731] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][2515.53906] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][2566.10059] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][2616.84106] operator()():314: Rank 0: Computing rhs at: 0.413806
+==52372== [ 0 ][2620.13184] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][2620.13232] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][2671.33691] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][2717.17432] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][2768.41089] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][2819.87671] operator()():314: Rank 0: Computing rhs at: 0.343704
+==52372== [ 0 ][2825.23096] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][2825.23145] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][2878.10156] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][2925.50244] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][2978.47266] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][3031.58691] operator()():314: Rank 0: Computing rhs at: 0.268350
+==52372== [ 0 ][3040.65942] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][3040.66040] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][3095.14844] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][3143.96167] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][3198.46118] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][3253.15747] operator()():314: Rank 0: Computing rhs at: 0.289928
+==52372== [ 0 ][3261.03394] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][3261.03467] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][3315.16016] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][3363.57910] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][3417.71509] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][3472.35449] operator()():314: Rank 0: Computing rhs at: 0.498207
+==52372== [ 0 ][3474.13696] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][3474.13770] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][3522.81543] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][3566.29761] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][3615.08301] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][3664.01855] operator()():314: Rank 0: Computing rhs at: 0.473780
+==52372== [ 0 ][3666.06372] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][3666.06445] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][3715.56030] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][3759.72632] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][3809.28418] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][3859.09912] operator()():314: Rank 0: Computing rhs at: 0.462019
+==52372== [ 0 ][3861.27979] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][3861.28027] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][3911.08643] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][3955.54565] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][4005.43115] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][4055.70752] operator()():314: Rank 0: Computing rhs at: 0.428460
+==52372== [ 0 ][4058.66992] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][4058.67041] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][4109.40137] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][4154.77783] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][4205.56836] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][4256.65576] operator()():314: Rank 0: Computing rhs at: 0.387476
+==52372== [ 0 ][4260.65576] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][4260.65674] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][4312.51270] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][4358.92041] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][4410.92871] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][4463.11230] operator()():314: Rank 0: Computing rhs at: 0.399844
+==52372== [ 0 ][4466.82129] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][4466.82178] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][4518.38867] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][4564.52979] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][4616.17090] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][4668.22559] operator()():634: Rank 0: Accepted step at: 0.387476
+==52372== [ 0 ][4669.39258] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.4195441 +i 0.0000000
+==52372== [ 0 ][4669.44141] operator()():706: Rank 0: Max of Re SC-s:     0.8369450 found at: 0 0 0 1
+==52372== [ 0 ][4669.49023] operator()():709: Rank 0: Max of Re SC-d:     0.0001518 found at: 0 0 0 5
+==52372== [ 0 ][4669.53955] operator()():714: Rank 0: Max of Re Density:  0.5024438 found at: 1 -1 0 0
+==52372== [ 0 ][4669.54004] operator()():715: Rank 0: Min of Re Density:  -0.4498163 found at: 0 0 1 0
+==52372== [ 0 ][4669.54053] operator()():716: Rank 0: Max of Im Density:  0.1389733 found at: 16 -1 0 0
+==52372== [ 0 ][4669.54053] operator()():717: Rank 0: Min of Im Density:  -0.1388613 found at: 16 1 0 0
+==52372== [ 0 ][4669.58740] operator()():722: Rank 0: Max of Re Magnetic: 1.2047060 found at: 12 -1 -24 0
+==52372== [ 0 ][4669.58789] operator()():723: Rank 0: Min of Re Magnetic: -0.0291020 found at: 0 0 -20 -1
+==52372== [ 0 ][4669.58838] operator()():724: Rank 0: Max of Im Magnetic: 0.0674976 found at: 19 -9 0 0
+==52372== [ 0 ][4669.58838] operator()():725: Rank 0: Min of Im Magnetic: -0.0692721 found at: 19 9 0 0
+==52372== [ 0 ][4669.58887] operator()():730: Rank 0: Filling <n>: 0.764264905686
+==52372== [ 0 ][4669.58936] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][4673.35986] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][4679.05371] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][4685.09082] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][4690.82129] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][4697.45703] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][4702.68164] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][4708.89844] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][4714.03320] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.387476.h5
+==52372== [ 0 ][4714.18066] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 1.204706
+==52372== [ 0 ][4714.18262] operator()():843: Rank 0: Chi magnetic max Re: 1.21515
+==52372== [ 0 ][4714.18262] operator()():844: Rank 0: Chi dwave_si max Re: 2.18981
+==52372== [ 0 ][4714.18311] operator()():845: Rank 0: Chi density  max Re: 0.34113
+==52372== [ 0 ][4714.18359] operator()():846: Rank 0: Chi density  min Re: -0.19976
+==52372== [ 0 ][4714.18359] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 0.61050 -0.00016
+==52372== [ 0 ][4714.18408] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.33254 -0.00005
+==52372== [ 0 ][4714.18457] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 2.18981 -0.00002
+==52372== [ 0 ][4714.18457] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : 0.16018 0.00028
+==52372== [ 0 ][4714.18604] operator()():314: Rank 0: Computing rhs at: 0.387476
+==52372== [ 0 ][4718.15918] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][4718.15967] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][4770.05029] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][4816.42041] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][4868.33447] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][4920.43848] operator()():314: Rank 0: Computing rhs at: 0.357199
+==52372== [ 0 ][4925.16064] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][4925.16113] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][4977.75049] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][5024.85596] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][5077.45312] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][5130.24658] operator()():314: Rank 0: Computing rhs at: 0.342959
+==52372== [ 0 ][5135.48633] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][5135.48682] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][5188.48682] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][5235.91895] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][5288.86670] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][5342.07764] operator()():314: Rank 0: Computing rhs at: 0.303557
+==52372== [ 0 ][5349.13623] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][5349.13721] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][5402.89502] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][5451.02930] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][5504.83496] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][5558.79102] operator()():314: Rank 0: Computing rhs at: 0.257971
+==52372== [ 0 ][5568.62500] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][5568.62549] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][5623.33057] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][5672.37451] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][5727.06641] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][5782.03271] operator()():314: Rank 0: Computing rhs at: 0.271429
+==52372== [ 0 ][5790.96924] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][5790.97070] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][5845.41602] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][5894.23242] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][5948.70117] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][6003.64844] operator()():314: Rank 0: Computing rhs at: 0.387476
+==52372== [ 0 ][6007.58545] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][6007.58594] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][6059.39404] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][6105.75293] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][6157.75293] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][6209.83936] operator()():314: Rank 0: Computing rhs at: 0.370799
+==52372== [ 0 ][6214.15186] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][6214.15234] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][6266.50342] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][6313.25293] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][6365.50146] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][6417.99121] operator()():314: Rank 0: Computing rhs at: 0.362732
+==52372== [ 0 ][6422.52734] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][6422.52783] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][6474.95703] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][6521.88330] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][6574.31396] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][6627.06055] operator()():314: Rank 0: Computing rhs at: 0.339568
+==52372== [ 0 ][6632.42969] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][6632.43018] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][6685.42773] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][6732.90039] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][6786.00000] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][6839.17920] operator()():314: Rank 0: Computing rhs at: 0.310968
+==52372== [ 0 ][6845.82520] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][6845.82568] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][6899.38477] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][6947.43018] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][7000.99414] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][7054.95801] operator()():314: Rank 0: Computing rhs at: 0.319637
+==52372== [ 0 ][7061.18799] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][7061.18896] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][7114.62646] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][7162.49756] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][7216.02979] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][7269.91895] operator()():634: Rank 0: Accepted step at: 0.310968
+==52372== [ 0 ][7271.17969] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.5309193 +i -0.0000000
+==52372== [ 0 ][7271.22852] operator()():706: Rank 0: Max of Re SC-s:     1.0889274 found at: 0 0 0 1
+==52372== [ 0 ][7271.27588] operator()():709: Rank 0: Max of Re SC-d:     0.0003125 found at: 0 0 0 5
+==52372== [ 0 ][7271.32324] operator()():714: Rank 0: Max of Re Density:  0.6871805 found at: 11 1 0 0
+==52372== [ 0 ][7271.32373] operator()():715: Rank 0: Min of Re Density:  -1.1971801 found at: 0 0 1 0
+==52372== [ 0 ][7271.32422] operator()():716: Rank 0: Max of Im Density:  0.2808501 found at: 16 -1 0 0
+==52372== [ 0 ][7271.32422] operator()():717: Rank 0: Min of Im Density:  -0.2811510 found at: 16 1 0 0
+==52372== [ 0 ][7271.37109] operator()():722: Rank 0: Max of Re Magnetic: 2.1584620 found at: 12 -1 -24 0
+==52372== [ 0 ][7271.37158] operator()():723: Rank 0: Min of Re Magnetic: -0.0441704 found at: 0 0 -24 -1
+==52372== [ 0 ][7271.37207] operator()():724: Rank 0: Max of Im Magnetic: 0.1499374 found at: 19 -3 0 0
+==52372== [ 0 ][7271.37256] operator()():725: Rank 0: Min of Im Magnetic: -0.1548359 found at: 19 5 0 0
+==52372== [ 0 ][7271.37256] operator()():730: Rank 0: Filling <n>: 0.734820227304
+==52372== [ 0 ][7271.37305] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][7277.80273] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][7284.04395] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][7289.86963] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][7296.06982] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][7302.77490] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][7308.79297] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][7315.21582] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][7320.34814] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.310968.h5
+==52372== [ 0 ][7320.48340] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 2.158462
+==52372== [ 0 ][7320.48535] operator()():843: Rank 0: Chi magnetic max Re: 2.18878
+==52372== [ 0 ][7320.48535] operator()():844: Rank 0: Chi dwave_si max Re: 2.73861
+==52372== [ 0 ][7320.48584] operator()():845: Rank 0: Chi density  max Re: 0.46097
+==52372== [ 0 ][7320.48633] operator()():846: Rank 0: Chi density  min Re: -0.51253
+==52372== [ 0 ][7320.48633] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 0.86337 -0.00048
+==52372== [ 0 ][7320.48682] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.46097 0.00005
+==52372== [ 0 ][7320.48730] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 2.73861 0.00020
+==52372== [ 0 ][7320.48779] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -0.36259 0.00134
+==52372== [ 0 ][7320.48877] operator()():314: Rank 0: Computing rhs at: 0.310968
+==52372== [ 0 ][7327.09912] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][7327.10010] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][7380.72803] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][7428.71826] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][7482.42969] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][7536.17529] operator()():314: Rank 0: Computing rhs at: 0.292999
+==52372== [ 0 ][7543.71143] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][7543.71289] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][7597.69482] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][7646.05859] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][7700.15820] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][7754.36865] operator()():314: Rank 0: Computing rhs at: 0.284407
+==52372== [ 0 ][7762.38379] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][7762.38477] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][7816.63428] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][7865.16650] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][7919.39404] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][7973.80322] operator()():314: Rank 0: Computing rhs at: 0.260115
+==52372== [ 0 ][7983.50391] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][7983.50488] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][8038.20801] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][8087.18164] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][8141.85400] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][8196.71484] operator()():314: Rank 0: Computing rhs at: 0.230922
+==52372== [ 0 ][8209.14453] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][8209.14648] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][8264.46289] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][8313.94824] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][8369.22461] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][8424.67969] operator()():314: Rank 0: Computing rhs at: 0.239675
+==52372== [ 0 ][8436.29980] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][8436.30078] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][8491.37109] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][8540.78516] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][8595.93262] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][8651.34961] operator()():314: Rank 0: Computing rhs at: 0.310968
+==52372== [ 0 ][8657.98242] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][8657.98340] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][8711.55664] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][8759.57031] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][8813.22363] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][8867.00195] operator()():314: Rank 0: Computing rhs at: 0.302495
+==52372== [ 0 ][8874.02148] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][8874.02246] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][8927.85352] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][8976.10645] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][9029.97168] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][9084.00098] operator()():314: Rank 0: Computing rhs at: 0.298346
+==52372== [ 0 ][9091.22852] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][9091.23047] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][9145.13379] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][9193.42773] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][9247.39453] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][9301.52441] operator()():314: Rank 0: Computing rhs at: 0.286236
+==52372== [ 0 ][9309.42676] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][9309.42773] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][9363.58105] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][9412.17480] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][9466.34863] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][9520.62695] operator()():314: Rank 0: Computing rhs at: 0.270851
+==52372== [ 0 ][9529.43555] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][9529.43652] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][9583.88281] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][9632.70801] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][9687.18555] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][9741.86621] operator()():314: Rank 0: Computing rhs at: 0.275568
+==52372== [ 0 ][9750.48047] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][9750.48145] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][9804.88379] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][9853.56543] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][9908.00391] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][9962.83398] operator()():634: Rank 0: Accepted step at: 0.270851
+==52372== [ 0 ][9964.13672] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.5945498 +i 0.0000000
+==52372== [ 0 ][9964.18652] operator()():706: Rank 0: Max of Re SC-s:     1.2964068 found at: 0 0 0 1
+==52372== [ 0 ][9964.23633] operator()():709: Rank 0: Max of Re SC-d:     0.0006171 found at: 0 0 0 1
+==52372== [ 0 ][9964.28320] operator()():714: Rank 0: Max of Re Density:  0.8438388 found at: 0 -1 0 0
+==52372== [ 0 ][9964.28418] operator()():715: Rank 0: Min of Re Density:  -2.2766213 found at: 0 0 1 0
+==52372== [ 0 ][9964.28418] operator()():716: Rank 0: Max of Im Density:  0.4270452 found at: 16 -1 0 0
+==52372== [ 0 ][9964.28516] operator()():717: Rank 0: Min of Im Density:  -0.4270154 found at: 16 1 0 0
+==52372== [ 0 ][9964.33105] operator()():722: Rank 0: Max of Re Magnetic: 3.1788729 found at: 12 -1 -24 0
+==52372== [ 0 ][9964.33203] operator()():723: Rank 0: Min of Re Magnetic: -0.0537005 found at: 0 0 -24 -1
+==52372== [ 0 ][9964.33203] operator()():724: Rank 0: Max of Im Magnetic: 0.2456348 found at: 19 -3 0 0
+==52372== [ 0 ][9964.33203] operator()():725: Rank 0: Min of Im Magnetic: -0.2556858 found at: 19 3 0 0
+==52372== [ 0 ][9964.33301] operator()():730: Rank 0: Filling <n>: 0.719380752672
+==52372== [ 0 ][9964.33301] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][9972.89648] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][9979.63770] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][9986.26172] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][9992.48438] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][9999.44238] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][10005.64355] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][10012.47754] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][10017.59766] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.270851.h5
+==52372== [ 0 ][10017.73438] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 3.178873
+==52372== [ 0 ][10017.73633] operator()():843: Rank 0: Chi magnetic max Re: 3.24763
+==52372== [ 0 ][10017.73730] operator()():844: Rank 0: Chi dwave_si max Re: 2.98449
+==52372== [ 0 ][10017.73730] operator()():845: Rank 0: Chi density  max Re: 0.58407
+==52372== [ 0 ][10017.73730] operator()():846: Rank 0: Chi density  min Re: -0.87666
+==52372== [ 0 ][10017.73828] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.02480 -0.00065
+==52372== [ 0 ][10017.73828] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.58407 -0.00051
+==52372== [ 0 ][10017.73828] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 2.98449 0.00100
+==52372== [ 0 ][10017.73828] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -0.95522 0.00420
+==52372== [ 0 ][10017.74023] operator()():314: Rank 0: Computing rhs at: 0.270851
+==52372== [ 0 ][10026.52344] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][10026.52441] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][10081.00781] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][10129.71582] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][10184.06934] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][10238.65039] operator()():314: Rank 0: Computing rhs at: 0.261885
+==52372== [ 0 ][10248.07617] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][10248.07715] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][10302.76465] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][10351.77344] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][10406.51660] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][10461.29883] operator()():314: Rank 0: Computing rhs at: 0.257515
+==52372== [ 0 ][10471.14941] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][10471.14941] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][10525.85742] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][10575.00293] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][10629.71973] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][10684.68359] operator()():314: Rank 0: Computing rhs at: 0.244835
+==52372== [ 0 ][10695.72266] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][10695.72266] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][10750.68066] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][10799.96484] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][10854.96973] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][10910.19922] operator()():314: Rank 0: Computing rhs at: 0.228895
+==52372== [ 0 ][10922.93262] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][10922.93359] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][10978.27734] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][11027.85840] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][11083.11328] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][11138.50977] operator()():314: Rank 0: Computing rhs at: 0.233761
+==52372== [ 0 ][11150.66016] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][11150.66113] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][11205.84570] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][11255.28320] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][11310.49512] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][11366.17285] operator()():634: Rank 0: Accepted step at: 0.228895
+==52372== [ 0 ][11367.50586] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.6649436 +i 0.0000000
+==52372== [ 0 ][11367.55469] operator()():706: Rank 0: Max of Re SC-s:     1.6583939 found at: 0 0 0 -1
+==52372== [ 0 ][11367.60352] operator()():709: Rank 0: Max of Re SC-d:     0.0020618 found at: 0 0 0 1
+==52372== [ 0 ][11367.65137] operator()():714: Rank 0: Max of Re Density:  1.1259675 found at: 0 -1 0 0
+==52372== [ 0 ][11367.65137] operator()():715: Rank 0: Min of Re Density:  -5.6662761 found at: 0 0 1 0
+==52372== [ 0 ][11367.65234] operator()():716: Rank 0: Max of Im Density:  0.7151796 found at: 16 -1 0 0
+==52372== [ 0 ][11367.65234] operator()():717: Rank 0: Min of Im Density:  -0.7167864 found at: 16 1 0 0
+==52372== [ 0 ][11367.69922] operator()():722: Rank 0: Max of Re Magnetic: 5.4908436 found at: 12 -1 -24 0
+==52372== [ 0 ][11367.69922] operator()():723: Rank 0: Min of Re Magnetic: -0.0640901 found at: 0 0 -24 -1
+==52372== [ 0 ][11367.69922] operator()():724: Rank 0: Max of Im Magnetic: 0.4677699 found at: 19 -1 0 0
+==52372== [ 0 ][11367.70020] operator()():725: Rank 0: Min of Im Magnetic: -0.4919916 found at: 19 1 0 0
+==52372== [ 0 ][11367.70020] operator()():730: Rank 0: Filling <n>: 0.703233648014
+==52372== [ 0 ][11367.70020] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][11380.25684] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][11386.72363] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][11393.60840] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][11399.92383] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][11406.78613] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][11413.42188] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][11420.66699] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][11425.78906] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.228895.h5
+==52372== [ 0 ][11425.92383] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 5.666276
+==52372== [ 0 ][11425.92480] operator()():843: Rank 0: Chi magnetic max Re: 5.69158
+==52372== [ 0 ][11425.92578] operator()():844: Rank 0: Chi dwave_si max Re: 3.01270
+==52372== [ 0 ][11425.92578] operator()():845: Rank 0: Chi density  max Re: 0.83841
+==52372== [ 0 ][11425.92578] operator()():846: Rank 0: Chi density  min Re: -1.64797
+==52372== [ 0 ][11425.92676] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.19736 -0.00040
+==52372== [ 0 ][11425.92676] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.83841 -0.00253
+==52372== [ 0 ][11425.92676] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 3.01270 0.00437
+==52372== [ 0 ][11425.92773] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -2.16720 0.01130
+==52372== [ 0 ][11425.92871] operator()():314: Rank 0: Computing rhs at: 0.228895
+==52372== [ 0 ][11438.73633] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][11438.73730] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][11493.98438] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][11543.48145] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][11598.74512] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][11654.14258] operator()():314: Rank 0: Computing rhs at: 0.220903
+==52372== [ 0 ][11668.18555] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][11668.18652] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][11723.59863] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][11773.16602] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][11828.59668] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][11884.16699] operator()():314: Rank 0: Computing rhs at: 0.217012
+==52372== [ 0 ][11898.91699] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][11898.91797] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][11954.40918] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][12004.15430] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][12059.53027] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][12115.17578] operator()():314: Rank 0: Computing rhs at: 0.205747
+==52372== [ 0 ][12131.92480] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][12131.92578] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][12187.65039] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][12237.44336] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][12293.08496] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][12348.93066] operator()():314: Rank 0: Computing rhs at: 0.191631
+==52372== [ 0 ][12367.86816] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][12367.86914] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][12423.68359] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][12473.70898] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][12529.68066] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][12585.80566] operator()():314: Rank 0: Computing rhs at: 0.195935
+==52372== [ 0 ][12604.05859] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][12604.05957] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][12659.88867] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][12709.84766] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][12765.70020] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][12822.05176] operator()():314: Rank 0: Computing rhs at: 0.228895
+==52372== [ 0 ][12834.70117] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][12834.70215] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][12890.02148] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][12939.54492] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][12994.76270] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][13050.16895] operator()():314: Rank 0: Computing rhs at: 0.227274
+==52372== [ 0 ][13063.10059] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][13063.10156] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][13118.40625] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][13167.96777] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][13223.28613] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][13278.67676] operator()():314: Rank 0: Computing rhs at: 0.226467
+==52372== [ 0 ][13291.69141] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][13291.69238] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][13346.96973] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][13396.49707] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][13451.80371] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][13507.23633] operator()():314: Rank 0: Computing rhs at: 0.224066
+==52372== [ 0 ][13520.65137] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][13520.65234] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][13576.03223] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][13625.62891] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][13680.96973] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][13736.62109] operator()():314: Rank 0: Computing rhs at: 0.220903
+==52372== [ 0 ][13750.54004] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][13750.54102] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][13805.95703] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][13855.63379] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][13911.13281] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][13966.72461] operator()():314: Rank 0: Computing rhs at: 0.221887
+==52372== [ 0 ][13980.47852] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][13980.48145] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][14035.83984] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][14085.50000] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][14140.89648] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][14196.75098] operator()():634: Rank 0: Accepted step at: 0.220903
+==52372== [ 0 ][14198.08691] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.6787998 +i -0.0000000
+==52372== [ 0 ][14198.13477] operator()():706: Rank 0: Max of Re SC-s:     1.7610217 found at: 0 0 0 -1
+==52372== [ 0 ][14198.18262] operator()():709: Rank 0: Max of Re SC-d:     0.0027648 found at: 0 0 0 1
+==52372== [ 0 ][14198.23145] operator()():714: Rank 0: Max of Re Density:  1.2072570 found at: 0 -1 0 0
+==52372== [ 0 ][14198.23145] operator()():715: Rank 0: Min of Re Density:  -7.1316063 found at: 0 0 1 0
+==52372== [ 0 ][14198.23145] operator()():716: Rank 0: Max of Im Density:  0.8010043 found at: 16 -1 0 0
+==52372== [ 0 ][14198.23242] operator()():717: Rank 0: Min of Im Density:  -0.8033688 found at: 16 1 0 0
+==52372== [ 0 ][14198.27832] operator()():722: Rank 0: Max of Re Magnetic: 6.2854793 found at: 12 -1 -24 0
+==52372== [ 0 ][14198.27930] operator()():723: Rank 0: Min of Re Magnetic: -0.0659793 found at: 0 0 -24 -1
+==52372== [ 0 ][14198.27930] operator()():724: Rank 0: Max of Im Magnetic: 0.5449427 found at: 19 -1 0 0
+==52372== [ 0 ][14198.27930] operator()():725: Rank 0: Min of Im Magnetic: -0.5747040 found at: 19 1 0 0
+==52372== [ 0 ][14198.28027] operator()():730: Rank 0: Filling <n>: 0.700157969715
+==52372== [ 0 ][14198.28027] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][14211.95312] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][14218.89453] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][14225.74121] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][14232.79492] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][14240.09961] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][14247.09375] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][14253.89355] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][14259.01758] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.220903.h5
+==52372== [ 0 ][14259.15234] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 7.131606
+==52372== [ 0 ][14259.15430] operator()():843: Rank 0: Chi magnetic max Re: 6.54106
+==52372== [ 0 ][14259.15430] operator()():844: Rank 0: Chi dwave_si max Re: 2.94324
+==52372== [ 0 ][14259.15527] operator()():845: Rank 0: Chi density  max Re: 0.91805
+==52372== [ 0 ][14259.15527] operator()():846: Rank 0: Chi density  min Re: -1.88482
+==52372== [ 0 ][14259.15527] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.22902 -0.00138
+==52372== [ 0 ][14259.15625] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 0.91805 -0.00440
+==52372== [ 0 ][14259.15625] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 2.94324 0.00813
+==52372== [ 0 ][14259.15625] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -2.53274 0.01463
+==52372== [ 0 ][14259.15820] operator()():314: Rank 0: Computing rhs at: 0.220903
+==52372== [ 0 ][14273.07227] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][14273.07324] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][14328.52930] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][14378.08984] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][14433.45410] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][14488.97070] operator()():314: Rank 0: Computing rhs at: 0.218378
+==52372== [ 0 ][14503.33008] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][14503.33105] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][14558.73828] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][14608.39355] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][14663.83691] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][14719.40723] operator()():314: Rank 0: Computing rhs at: 0.217127
+==52372== [ 0 ][14733.91797] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][14733.91895] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][14789.43848] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][14839.09277] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][14894.60547] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][14950.26172] operator()():314: Rank 0: Computing rhs at: 0.213415
+==52372== [ 0 ][14965.38770] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][14965.38867] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][15020.93848] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][15070.65234] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][15126.08691] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][15181.77832] operator()():314: Rank 0: Computing rhs at: 0.208565
+==52372== [ 0 ][15197.86914] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][15197.87012] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][15253.49805] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][15303.32617] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][15359.03516] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][15414.86230] operator()():314: Rank 0: Computing rhs at: 0.210069
+==52372== [ 0 ][15430.64355] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][15430.64453] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][15486.27344] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][15536.04004] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][15591.63086] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][15647.68164] operator()():634: Rank 0: Accepted step at: 0.208565
+==52372== [ 0 ][15649.02832] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7004710 +i -0.0000000
+==52372== [ 0 ][15649.07715] operator()():706: Rank 0: Max of Re SC-s:     1.9581928 found at: 0 0 0 -1
+==52372== [ 0 ][15649.12598] operator()():709: Rank 0: Max of Re SC-d:     0.0046114 found at: 0 0 0 1
+==52372== [ 0 ][15649.17480] operator()():714: Rank 0: Max of Re Density:  1.3651755 found at: 0 -1 0 0
+==52372== [ 0 ][15649.17578] operator()():715: Rank 0: Min of Re Density:  -10.9029472 found at: 0 0 1 0
+==52372== [ 0 ][15649.17578] operator()():716: Rank 0: Max of Im Density:  0.9689203 found at: 16 -1 0 0
+==52372== [ 0 ][15649.17676] operator()():717: Rank 0: Min of Im Density:  -0.9730630 found at: 16 1 0 0
+==52372== [ 0 ][15649.22266] operator()():722: Rank 0: Max of Re Magnetic: 8.0160896 found at: 12 -1 -24 0
+==52372== [ 0 ][15649.22363] operator()():723: Rank 0: Min of Re Magnetic: -0.0687263 found at: 0 0 -24 -1
+==52372== [ 0 ][15649.22363] operator()():724: Rank 0: Max of Im Magnetic: 0.7024296 found at: 19 -1 0 0
+==52372== [ 0 ][15649.22461] operator()():725: Rank 0: Min of Im Magnetic: -0.7701467 found at: 12 19 0 0
+==52372== [ 0 ][15649.22461] operator()():730: Rank 0: Filling <n>: 0.695409662155
+==52372== [ 0 ][15649.22461] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][15665.07129] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][15672.11816] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][15678.96191] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][15685.96387] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][15693.52832] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][15700.95996] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][15707.93945] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][15713.06641] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.208565.h5
+==52372== [ 0 ][15713.20117] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 10.902947
+==52372== [ 0 ][15713.20312] operator()():843: Rank 0: Chi magnetic max Re: 8.40245
+==52372== [ 0 ][15713.20312] operator()():844: Rank 0: Chi dwave_si max Re: 2.72131
+==52372== [ 0 ][15713.20410] operator()():845: Rank 0: Chi density  max Re: 1.06657
+==52372== [ 0 ][15713.20410] operator()():846: Rank 0: Chi density  min Re: -2.35315
+==52372== [ 0 ][15713.20410] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.27178 0.00031
+==52372== [ 0 ][15713.20508] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.06657 -0.00477
+==52372== [ 0 ][15713.20508] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 2.72131 0.01693
+==52372== [ 0 ][15713.20508] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -3.25752 0.02213
+==52372== [ 0 ][15713.20703] operator()():314: Rank 0: Computing rhs at: 0.208565
+==52372== [ 0 ][15729.28906] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][15729.29004] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][15784.94629] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][15834.79785] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][15890.42285] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][15946.17383] operator()():314: Rank 0: Computing rhs at: 0.205081
+==52372== [ 0 ][15962.82324] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][15962.82422] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][16018.55859] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][16068.41016] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][16124.01562] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][16179.82617] operator()():314: Rank 0: Computing rhs at: 0.203361
+==52372== [ 0 ][16196.80957] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][16196.81055] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][16252.55664] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][16302.47852] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][16358.14941] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][16413.95312] operator()():314: Rank 0: Computing rhs at: 0.198287
+==52372== [ 0 ][16431.75195] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][16431.75391] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][16487.50977] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][16537.53906] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][16593.39453] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][16649.36328] operator()():314: Rank 0: Computing rhs at: 0.191717
+==52372== [ 0 ][16668.16211] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][16668.16406] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][16724.07617] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][16774.09961] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][16830.00586] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][16886.07617] operator()():314: Rank 0: Computing rhs at: 0.193747
+==52372== [ 0 ][16904.46094] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][16904.46289] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][16960.36523] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][17010.39844] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][17066.21094] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][17122.63867] operator()():314: Rank 0: Computing rhs at: 0.208565
+==52372== [ 0 ][17138.68164] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][17138.68164] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][17194.31055] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][17244.23242] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][17299.75781] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][17355.46875] operator()():314: Rank 0: Computing rhs at: 0.205845
+==52372== [ 0 ][17371.87305] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][17371.87695] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][17427.55273] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][17477.41406] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][17533.00977] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][17588.86914] operator()():314: Rank 0: Computing rhs at: 0.204498
+==52372== [ 0 ][17605.57031] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][17605.57227] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][17661.31641] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][17711.14453] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][17766.82617] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][17822.68555] operator()():314: Rank 0: Computing rhs at: 0.200510
+==52372== [ 0 ][17840.11133] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][17840.11133] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][17895.85352] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][17945.83203] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][18001.63281] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][18057.56836] operator()():314: Rank 0: Computing rhs at: 0.195313
+==52372== [ 0 ][18075.69922] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][18075.70117] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][18131.58008] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][18181.61719] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][18237.47070] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][18293.52734] operator()():314: Rank 0: Computing rhs at: 0.196922
+==52372== [ 0 ][18311.46094] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][18311.46094] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][18367.27148] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][18417.23438] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][18473.00586] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][18529.30664] operator()():634: Rank 0: Accepted step at: 0.195313
+==52372== [ 0 ][18530.66406] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7241292 +i 0.0000000
+==52372== [ 0 ][18530.71484] operator()():706: Rank 0: Max of Re SC-s:     2.2516096 found at: 0 0 0 -1
+==52372== [ 0 ][18530.76172] operator()():709: Rank 0: Max of Re SC-d:     0.0089043 found at: 0 0 0 1
+==52372== [ 0 ][18530.81250] operator()():714: Rank 0: Max of Re Density:  1.6015592 found at: 0 -1 0 0
+==52372== [ 0 ][18530.81250] operator()():715: Rank 0: Min of Re Density:  -20.3686008 found at: 0 0 1 0
+==52372== [ 0 ][18530.81250] operator()():716: Rank 0: Max of Im Density:  1.2198817 found at: 16 -1 0 0
+==52372== [ 0 ][18530.81250] operator()():717: Rank 0: Min of Im Density:  -1.2278136 found at: 16 1 0 0
+==52372== [ 0 ][18530.85938] operator()():722: Rank 0: Max of Re Magnetic: 11.1938869 found at: 12 -1 -24 0
+==52372== [ 0 ][18530.86133] operator()():723: Rank 0: Min of Re Magnetic: -0.0712952 found at: 0 0 -24 -1
+==52372== [ 0 ][18530.86133] operator()():724: Rank 0: Max of Im Magnetic: 0.9533892 found at: 19 -1 0 0
+==52372== [ 0 ][18530.86133] operator()():725: Rank 0: Min of Im Magnetic: -1.1540235 found at: 12 19 0 0
+==52372== [ 0 ][18530.86133] operator()():730: Rank 0: Filling <n>: 0.690309307126
+==52372== [ 0 ][18530.86133] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][18548.79297] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][18556.16992] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][18563.46094] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][18570.02148] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][18577.30273] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][18584.09570] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][18591.54492] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][18596.67188] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.195313.h5
+==52372== [ 0 ][18596.80664] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 20.368601
+==52372== [ 0 ][18596.80859] operator()():843: Rank 0: Chi magnetic max Re: 11.84765
+==52372== [ 0 ][18596.80859] operator()():844: Rank 0: Chi dwave_si max Re: 2.18280
+==52372== [ 0 ][18596.80859] operator()():845: Rank 0: Chi density  max Re: 1.30343
+==52372== [ 0 ][18596.81055] operator()():846: Rank 0: Chi density  min Re: -3.07225
+==52372== [ 0 ][18596.81055] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.30037 0.00150
+==52372== [ 0 ][18596.81055] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.30343 -0.00862
+==52372== [ 0 ][18596.81055] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 2.17091 0.02589
+==52372== [ 0 ][18596.81055] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -4.37319 0.03719
+==52372== [ 0 ][18596.81250] operator()():314: Rank 0: Computing rhs at: 0.195313
+==52372== [ 0 ][18614.94336] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][18614.94336] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][18670.82422] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][18720.80469] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][18776.62891] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][18832.66406] operator()():314: Rank 0: Computing rhs at: 0.192075
+==52372== [ 0 ][18851.30078] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][18851.30273] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][18907.29297] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][18957.32422] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][19013.26367] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][19069.30859] operator()():314: Rank 0: Computing rhs at: 0.190476
+==52372== [ 0 ][19088.32031] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][19088.32031] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][19144.25977] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][19194.38672] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][19250.37305] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][19306.42969] operator()():314: Rank 0: Computing rhs at: 0.185759
+==52372== [ 0 ][19326.27539] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][19326.27539] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][19382.28711] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][19432.42188] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][19488.40820] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][19544.57031] operator()():314: Rank 0: Computing rhs at: 0.179650
+==52372== [ 0 ][19565.97461] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][19565.97461] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][19622.12891] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][19672.34180] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][19728.42773] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][19784.71484] operator()():314: Rank 0: Computing rhs at: 0.181537
+==52372== [ 0 ][19805.61719] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][19805.61914] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][19861.69336] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][19911.90234] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][19967.90234] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][20024.42969] operator()():314: Rank 0: Computing rhs at: 0.195313
+==52372== [ 0 ][20042.48633] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][20042.48828] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][20098.30859] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][20148.31836] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][20204.11523] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][20260.14844] operator()():314: Rank 0: Computing rhs at: 0.194661
+==52372== [ 0 ][20278.29688] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][20278.29688] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][20334.19336] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][20384.21289] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][20439.99609] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][20495.99023] operator()():314: Rank 0: Computing rhs at: 0.194336
+==52372== [ 0 ][20514.18359] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][20514.18555] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][20570.13867] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][20620.10742] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][20675.93750] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][20731.97266] operator()():314: Rank 0: Computing rhs at: 0.193363
+==52372== [ 0 ][20750.29883] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][20750.29883] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][20806.16602] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][20856.20117] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][20912.06641] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][20968.02539] operator()():314: Rank 0: Computing rhs at: 0.192075
+==52372== [ 0 ][20986.63281] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][20986.63281] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][21042.54688] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][21092.56250] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][21148.46094] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][21204.53516] operator()():314: Rank 0: Computing rhs at: 0.192476
+==52372== [ 0 ][21223.03320] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][21223.03320] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][21279.01172] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][21329.06055] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][21384.94922] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][21441.31445] operator()():634: Rank 0: Accepted step at: 0.192075
+==52372== [ 0 ][21442.67578] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7299688 +i -0.0000000
+==52372== [ 0 ][21442.72461] operator()():706: Rank 0: Max of Re SC-s:     2.3428607 found at: 0 0 0 -1
+==52372== [ 0 ][21442.77148] operator()():709: Rank 0: Max of Re SC-d:     0.0107132 found at: 0 0 0 1
+==52372== [ 0 ][21442.82031] operator()():714: Rank 0: Max of Re Density:  1.6750901 found at: 0 -1 0 0
+==52372== [ 0 ][21442.82031] operator()():715: Rank 0: Min of Re Density:  -24.9356725 found at: 0 0 1 0
+==52372== [ 0 ][21442.82031] operator()():716: Rank 0: Max of Im Density:  1.2977163 found at: 16 -1 0 0
+==52372== [ 0 ][21442.82031] operator()():717: Rank 0: Min of Im Density:  -1.3069985 found at: 16 1 0 0
+==52372== [ 0 ][21442.86719] operator()():722: Rank 0: Max of Re Magnetic: 12.3629934 found at: 12 -24 1 0
+==52372== [ 0 ][21442.86719] operator()():723: Rank 0: Min of Re Magnetic: -0.0718388 found at: 0 0 -24 -1
+==52372== [ 0 ][21442.86914] operator()():724: Rank 0: Max of Im Magnetic: 1.0338812 found at: 19 -1 0 0
+==52372== [ 0 ][21442.86914] operator()():725: Rank 0: Min of Im Magnetic: -1.3019687 found at: 12 19 0 0
+==52372== [ 0 ][21442.86914] operator()():730: Rank 0: Filling <n>: 0.689063099326
+==52372== [ 0 ][21442.86914] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][21461.17773] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][21468.34961] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][21475.36328] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][21482.62109] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][21490.20508] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][21497.16797] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][21504.13477] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][21509.27930] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.192075.h5
+==52372== [ 0 ][21509.42773] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 24.935672
+==52372== [ 0 ][21509.42969] operator()():843: Rank 0: Chi magnetic max Re: 13.12081
+==52372== [ 0 ][21509.42969] operator()():844: Rank 0: Chi dwave_si max Re: 2.02806
+==52372== [ 0 ][21509.42969] operator()():845: Rank 0: Chi density  max Re: 1.37929
+==52372== [ 0 ][21509.42969] operator()():846: Rank 0: Chi density  min Re: -3.29918
+==52372== [ 0 ][21509.42969] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.30319 0.00137
+==52372== [ 0 ][21509.42969] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.37929 -0.00944
+==52372== [ 0 ][21509.42969] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 1.94320 0.03295
+==52372== [ 0 ][21509.42969] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -4.72972 0.04328
+==52372== [ 0 ][21509.43164] operator()():314: Rank 0: Computing rhs at: 0.192075
+==52372== [ 0 ][21527.96680] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][21527.96680] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][21583.91602] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][21633.90039] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][21689.77734] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][21745.75586] operator()():314: Rank 0: Computing rhs at: 0.190516
+==52372== [ 0 ][21764.64062] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][21764.64258] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][21820.61328] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][21870.70703] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][21926.60742] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][21982.63672] operator()():314: Rank 0: Computing rhs at: 0.189741
+==52372== [ 0 ][22001.67188] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][22001.67188] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][22057.66992] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][22107.81641] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][22163.70703] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][22219.82227] operator()():314: Rank 0: Computing rhs at: 0.187436
+==52372== [ 0 ][22239.23242] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][22239.23438] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][22295.26953] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][22345.39844] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][22401.48633] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][22457.70117] operator()():314: Rank 0: Computing rhs at: 0.184406
+==52372== [ 0 ][22477.58594] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][22477.58594] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][22533.64648] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][22583.82227] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][22639.82812] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][22696.08203] operator()():314: Rank 0: Computing rhs at: 0.185348
+==52372== [ 0 ][22715.92188] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][22715.92188] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][22771.98242] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][22822.20117] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][22878.11328] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][22934.58398] operator()():634: Rank 0: Accepted step at: 0.184406
+==52372== [ 0 ][22935.95117] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7438938 +i 0.0000000
+==52372== [ 0 ][22936.00000] operator()():706: Rank 0: Max of Re SC-s:     2.6059979 found at: 0 0 0 -1
+==52372== [ 0 ][22936.04883] operator()():709: Rank 0: Max of Re SC-d:     0.0175589 found at: 0 0 0 1
+==52372== [ 0 ][22936.09375] operator()():714: Rank 0: Max of Re Density:  1.8861629 found at: 0 -1 0 0
+==52372== [ 0 ][22936.09375] operator()():715: Rank 0: Min of Re Density:  -47.6663467 found at: 0 0 1 0
+==52372== [ 0 ][22936.09570] operator()():716: Rank 0: Max of Im Density:  1.5201893 found at: 16 -1 0 0
+==52372== [ 0 ][22936.09570] operator()():717: Rank 0: Min of Im Density:  -1.5343572 found at: 16 1 0 0
+==52372== [ 0 ][22936.14258] operator()():722: Rank 0: Max of Re Magnetic: 16.3504111 found at: 12 -24 1 0
+==52372== [ 0 ][22936.14453] operator()():723: Rank 0: Min of Re Magnetic: -0.0729496 found at: 0 0 -24 -1
+==52372== [ 0 ][22936.14453] operator()():724: Rank 0: Max of Im Magnetic: 1.2683932 found at: 19 -1 0 0
+==52372== [ 0 ][22936.14453] operator()():725: Rank 0: Min of Im Magnetic: -1.8328494 found at: 12 19 0 0
+==52372== [ 0 ][22936.14453] operator()():730: Rank 0: Filling <n>: 0.686111816789
+==52372== [ 0 ][22936.14453] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][22955.79883] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][22962.85742] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][22969.97461] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][22976.67578] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][22984.08398] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][22991.45703] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][22998.99023] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][23004.12695] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.184406.h5
+==52372== [ 0 ][23004.25977] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 47.666347
+==52372== [ 0 ][23004.26172] operator()():843: Rank 0: Chi magnetic max Re: 17.47141
+==52372== [ 0 ][23004.26172] operator()():844: Rank 0: Chi dwave_si max Re: 1.63918
+==52372== [ 0 ][23004.26172] operator()():845: Rank 0: Chi density  max Re: 1.59703
+==52372== [ 0 ][23004.26172] operator()():846: Rank 0: Chi density  min Re: -3.97366
+==52372== [ 0 ][23004.26172] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.30240 0.00247
+==52372== [ 0 ][23004.26367] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.59703 -0.01379
+==52372== [ 0 ][23004.26367] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 1.11509 0.06078
+==52372== [ 0 ][23004.26367] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -5.78397 0.06517
+==52372== [ 0 ][23004.26562] operator()():314: Rank 0: Computing rhs at: 0.184406
+==52372== [ 0 ][23024.14648] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][23024.14648] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][23080.22461] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][23130.42773] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][23186.45117] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][23242.53516] operator()():314: Rank 0: Computing rhs at: 0.182910
+==52372== [ 0 ][23262.80078] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][23262.80078] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][23318.84570] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][23369.00000] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][23425.01172] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][23481.21875] operator()():314: Rank 0: Computing rhs at: 0.182166
+==52372== [ 0 ][23501.73828] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][23501.73828] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][23557.77734] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][23607.95703] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][23664.05859] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][23720.17773] operator()():314: Rank 0: Computing rhs at: 0.179953
+==52372== [ 0 ][23741.38867] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][23741.39062] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][23797.56641] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][23847.75195] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][23903.87891] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][23960.25391] operator()():314: Rank 0: Computing rhs at: 0.177044
+==52372== [ 0 ][23982.39844] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][23982.40039] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][24038.60938] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][24088.90039] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][24145.11523] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][24201.45508] operator()():314: Rank 0: Computing rhs at: 0.177948
+==52372== [ 0 ][24223.30078] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][24223.30273] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][24279.47461] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][24329.76562] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][24386.00977] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][24442.50977] operator()():314: Rank 0: Computing rhs at: 0.184406
+==52372== [ 0 ][24462.30469] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][24462.30469] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][24518.41016] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][24568.61523] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][24624.55469] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][24680.84180] operator()():314: Rank 0: Computing rhs at: 0.184106
+==52372== [ 0 ][24700.75000] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][24700.75000] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][24756.84570] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][24807.01172] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][24862.97070] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][24919.15820] operator()():314: Rank 0: Computing rhs at: 0.183956
+==52372== [ 0 ][24939.15625] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][24939.15820] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][24995.18555] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][25045.37891] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][25101.43359] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][25157.64453] operator()():314: Rank 0: Computing rhs at: 0.183507
+==52372== [ 0 ][25177.74023] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][25177.74219] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][25233.78906] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][25283.93359] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][25339.98633] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][25396.22070] operator()():314: Rank 0: Computing rhs at: 0.182910
+==52372== [ 0 ][25416.41211] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][25416.41406] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][25472.42578] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][25522.58008] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][25578.68750] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][25634.95117] operator()():314: Rank 0: Computing rhs at: 0.183096
+==52372== [ 0 ][25655.09375] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][25655.09570] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][25711.21484] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][25761.46094] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][25817.43555] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][25874.00586] operator()():634: Rank 0: Accepted step at: 0.182910
+==52372== [ 0 ][25875.37305] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7466263 +i 0.0000000
+==52372== [ 0 ][25875.42383] operator()():706: Rank 0: Max of Re SC-s:     2.6673687 found at: 0 0 0 -1
+==52372== [ 0 ][25875.47266] operator()():709: Rank 0: Max of Re SC-d:     0.0195720 found at: 0 0 0 1
+==52372== [ 0 ][25875.51953] operator()():714: Rank 0: Max of Re Density:  1.9350392 found at: 0 -1 0 0
+==52372== [ 0 ][25875.51953] operator()():715: Rank 0: Min of Re Density:  -56.8189632 found at: 0 0 1 0
+==52372== [ 0 ][25875.51953] operator()():716: Rank 0: Max of Im Density:  1.5714667 found at: 16 -1 0 0
+==52372== [ 0 ][25875.51953] operator()():717: Rank 0: Min of Im Density:  -1.5869430 found at: 16 1 0 0
+==52372== [ 0 ][25875.56641] operator()():722: Rank 0: Max of Re Magnetic: 17.4342993 found at: 12 -24 1 0
+==52372== [ 0 ][25875.56641] operator()():723: Rank 0: Min of Re Magnetic: -0.0731322 found at: 0 0 -24 -1
+==52372== [ 0 ][25875.56836] operator()():724: Rank 0: Max of Im Magnetic: 1.3230618 found at: 19 -1 0 0
+==52372== [ 0 ][25875.56836] operator()():725: Rank 0: Min of Im Magnetic: -1.9843403 found at: 12 19 0 0
+==52372== [ 0 ][25875.56836] operator()():730: Rank 0: Filling <n>: 0.685535853014
+==52372== [ 0 ][25875.56836] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][25895.51172] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][25902.76562] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][25909.97266] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][25917.57617] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][25925.32227] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][25933.29883] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][25940.82812] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][25945.96094] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.18291.h5
+==52372== [ 0 ][25946.10742] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 56.818963
+==52372== [ 0 ][25946.10938] operator()():843: Rank 0: Chi magnetic max Re: 18.65659
+==52372== [ 0 ][25946.11133] operator()():844: Rank 0: Chi dwave_si max Re: 1.55597
+==52372== [ 0 ][25946.11133] operator()():845: Rank 0: Chi density  max Re: 1.65158
+==52372== [ 0 ][25946.11133] operator()():846: Rank 0: Chi density  min Re: -4.12949
+==52372== [ 0 ][25946.11133] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.30063 0.00275
+==52372== [ 0 ][25946.11133] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.65158 -0.01436
+==52372== [ 0 ][25946.11133] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 0.87890 0.07275
+==52372== [ 0 ][25946.11328] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -6.03650 0.07158
+==52372== [ 0 ][25946.11328] operator()():314: Rank 0: Computing rhs at: 0.182910
+==52372== [ 0 ][25966.29297] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][25966.29297] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][26022.41016] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][26072.59766] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][26128.57812] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][26184.75977] operator()():314: Rank 0: Computing rhs at: 0.182260
+==52372== [ 0 ][26205.14453] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][26205.14453] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][26261.19922] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][26311.46289] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][26367.43555] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][26423.70508] operator()():314: Rank 0: Computing rhs at: 0.181936
+==52372== [ 0 ][26444.23047] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][26444.23047] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][26500.31641] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][26550.62695] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][26606.66797] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][26662.87891] operator()():314: Rank 0: Computing rhs at: 0.180967
+==52372== [ 0 ][26683.73047] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][26683.73242] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][26739.81445] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][26790.02148] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][26846.11133] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][26902.42969] operator()():314: Rank 0: Computing rhs at: 0.179684
+==52372== [ 0 ][26923.40039] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][26923.40039] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][26979.54492] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][27029.79492] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][27085.92383] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][27142.25781] operator()():314: Rank 0: Computing rhs at: 0.180084
+==52372== [ 0 ][27163.26172] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][27163.26562] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][27219.45117] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][27269.69336] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][27325.80859] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][27382.37305] operator()():634: Rank 0: Accepted step at: 0.179684
+==52372== [ 0 ][27383.74219] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7525345 +i 0.0000000
+==52372== [ 0 ][27383.79297] operator()():706: Rank 0: Max of Re SC-s:     2.8146521 found at: 0 0 0 -1
+==52372== [ 0 ][27383.83984] operator()():709: Rank 0: Max of Re SC-d:     0.0252047 found at: 0 0 0 1
+==52372== [ 0 ][27383.88867] operator()():714: Rank 0: Max of Re Density:  2.0515709 found at: 0 -1 0 0
+==52372== [ 0 ][27383.88867] operator()():715: Rank 0: Min of Re Density:  -93.3659558 found at: 0 0 1 0
+==52372== [ 0 ][27383.88867] operator()():716: Rank 0: Max of Im Density:  3.8757090 found at: 0 0 1 0
+==52372== [ 0 ][27383.88867] operator()():717: Rank 0: Min of Im Density:  -1.7121335 found at: 16 1 0 0
+==52372== [ 0 ][27383.93359] operator()():722: Rank 0: Max of Re Magnetic: 20.3204967 found at: 12 -24 1 0
+==52372== [ 0 ][27383.93359] operator()():723: Rank 0: Min of Re Magnetic: -0.0734816 found at: 0 0 -24 -1
+==52372== [ 0 ][27383.93750] operator()():724: Rank 0: Max of Im Magnetic: 1.4531541 found at: 19 -1 0 0
+==52372== [ 0 ][27383.93750] operator()():725: Rank 0: Min of Im Magnetic: -2.4027706 found at: 12 19 0 0
+==52372== [ 0 ][27383.93750] operator()():730: Rank 0: Filling <n>: 0.684294316359
+==52372== [ 0 ][27383.93750] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][27404.63086] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][27412.01172] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][27420.07617] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][27427.48633] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][27435.34766] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][27443.13477] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][27450.91211] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][27456.05078] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.179684.h5
+==52372== [ 0 ][27456.18359] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 93.365956
+==52372== [ 0 ][27456.18555] operator()():843: Rank 0: Chi magnetic max Re: 21.81708
+==52372== [ 0 ][27456.18555] operator()():844: Rank 0: Chi dwave_si max Re: 1.43212
+==52372== [ 0 ][27456.18555] operator()():845: Rank 0: Chi density  max Re: 1.77604
+==52372== [ 0 ][27456.18555] operator()():846: Rank 0: Chi density  min Re: -4.55087
+==52372== [ 0 ][27456.18750] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29618 0.00323
+==52372== [ 0 ][27456.18750] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.77604 -0.01816
+==52372== [ 0 ][27456.18750] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 0.22910 0.10199
+==52372== [ 0 ][27456.18750] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -6.65734 0.08806
+==52372== [ 0 ][27456.18945] operator()():314: Rank 0: Computing rhs at: 0.179684
+==52372== [ 0 ][27477.10938] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][27477.10938] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][27533.28320] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][27583.61133] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][27639.70703] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][27695.92188] operator()():314: Rank 0: Computing rhs at: 0.179045
+==52372== [ 0 ][27717.25195] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][27717.25391] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][27773.43359] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][27823.69141] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][27879.77930] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][27935.99609] operator()():314: Rank 0: Computing rhs at: 0.178727
+==52372== [ 0 ][27957.41602] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][27957.41797] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][28013.59961] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][28063.75391] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][28119.86328] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][28176.21875] operator()():314: Rank 0: Computing rhs at: 0.177775
+==52372== [ 0 ][28197.87891] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][28197.88086] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][28254.03125] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][28304.56055] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][28360.67578] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][28416.90430] operator()():314: Rank 0: Computing rhs at: 0.176515
+==52372== [ 0 ][28439.03320] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][28439.03320] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][28495.17773] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][28545.64453] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][28601.78906] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][28658.16797] operator()():314: Rank 0: Computing rhs at: 0.176908
+==52372== [ 0 ][28680.12305] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][28680.12305] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][28736.34180] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][28786.62109] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][28842.70703] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][28899.33984] operator()():314: Rank 0: Computing rhs at: 0.179684
+==52372== [ 0 ][28920.17578] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][28920.17578] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][28976.29688] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][29026.51172] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][29082.55664] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][29138.82227] operator()():314: Rank 0: Computing rhs at: 0.179556
+==52372== [ 0 ][29159.83984] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][29159.84180] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][29215.98633] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][29266.25195] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][29322.32422] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][29378.59961] operator()():314: Rank 0: Computing rhs at: 0.179492
+==52372== [ 0 ][29399.67578] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][29399.67773] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][29455.80859] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][29506.08398] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][29562.24219] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][29618.51172] operator()():314: Rank 0: Computing rhs at: 0.179300
+==52372== [ 0 ][29639.69141] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][29639.69336] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][29695.74805] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][29746.00586] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][29802.18945] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][29858.55078] operator()():314: Rank 0: Computing rhs at: 0.179045
+==52372== [ 0 ][29879.80273] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][29879.80273] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][29935.89844] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][29986.15625] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][30042.31250] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][30098.56641] operator()():314: Rank 0: Computing rhs at: 0.179125
+==52372== [ 0 ][30119.81641] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][30119.81836] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][30175.99023] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][30226.28516] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][30282.35742] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][30338.91797] operator()():634: Rank 0: Accepted step at: 0.179045
+==52372== [ 0 ][30340.28516] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7537061 +i 0.0000000
+==52372== [ 0 ][30340.33594] operator()():706: Rank 0: Max of Re SC-s:     2.8466218 found at: 0 0 0 -1
+==52372== [ 0 ][30340.38477] operator()():709: Rank 0: Max of Re SC-d:     0.0265975 found at: 0 0 0 1
+==52372== [ 0 ][30340.43359] operator()():714: Rank 0: Max of Re Density:  2.0766470 found at: 0 -1 0 0
+==52372== [ 0 ][30340.43359] operator()():715: Rank 0: Min of Re Density:  -106.2503688 found at: 0 0 1 0
+==52372== [ 0 ][30340.43359] operator()():716: Rank 0: Max of Im Density:  4.9495154 found at: 0 0 1 0
+==52372== [ 0 ][30340.43359] operator()():717: Rank 0: Min of Im Density:  -1.7390669 found at: 16 1 0 0
+==52372== [ 0 ][30340.48438] operator()():722: Rank 0: Max of Re Magnetic: 21.0052517 found at: 12 -24 1 0
+==52372== [ 0 ][30340.48438] operator()():723: Rank 0: Min of Re Magnetic: -0.0735430 found at: 0 0 -24 -1
+==52372== [ 0 ][30340.48633] operator()():724: Rank 0: Max of Im Magnetic: 1.4810855 found at: 19 -1 0 0
+==52372== [ 0 ][30340.48633] operator()():725: Rank 0: Min of Im Magnetic: -2.5052637 found at: 12 19 0 0
+==52372== [ 0 ][30340.48633] operator()():730: Rank 0: Filling <n>: 0.684048649110
+==52372== [ 0 ][30340.48633] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][30361.48828] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][30368.46289] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][30375.33203] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][30381.88672] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][30389.08398] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][30396.81836] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][30404.41992] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][30409.56445] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.179045.h5
+==52372== [ 0 ][30409.69922] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 106.250369
+==52372== [ 0 ][30409.70117] operator()():843: Rank 0: Chi magnetic max Re: 22.56790
+==52372== [ 0 ][30409.70117] operator()():844: Rank 0: Chi dwave_si max Re: 1.40185
+==52372== [ 0 ][30409.70117] operator()():845: Rank 0: Chi density  max Re: 1.80616
+==52372== [ 0 ][30409.70117] operator()():846: Rank 0: Chi density  min Re: -4.62118
+==52372== [ 0 ][30409.70312] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29524 0.00362
+==52372== [ 0 ][30409.70312] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.80616 -0.01534
+==52372== [ 0 ][30409.70312] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : 0.07050 0.11030
+==52372== [ 0 ][30409.70312] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -6.80044 0.09231
+==52372== [ 0 ][30409.70508] operator()():314: Rank 0: Computing rhs at: 0.179045
+==52372== [ 0 ][30430.98047] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][30430.98047] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][30487.10938] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][30537.39648] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][30593.55078] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][30649.82617] operator()():314: Rank 0: Computing rhs at: 0.178710
+==52372== [ 0 ][30671.15430] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][30671.15625] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][30727.31445] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][30777.56055] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][30833.62891] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][30889.84766] operator()():314: Rank 0: Computing rhs at: 0.178543
+==52372== [ 0 ][30911.28320] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][30911.28320] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][30967.48633] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][31017.71094] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][31073.77930] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][31130.07227] operator()():314: Rank 0: Computing rhs at: 0.178042
+==52372== [ 0 ][31151.60352] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][31151.60547] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][31207.72852] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][31257.99414] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][31314.10742] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][31370.41406] operator()():314: Rank 0: Computing rhs at: 0.177377
+==52372== [ 0 ][31392.14062] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][31392.14258] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][31448.35547] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][31498.63086] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][31554.76562] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][31611.07422] operator()():314: Rank 0: Computing rhs at: 0.177584
+==52372== [ 0 ][31632.74219] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][31632.74219] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][31688.91406] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][31739.21875] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][31795.37305] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][31852.05273] operator()():634: Rank 0: Accepted step at: 0.177377
+==52372== [ 0 ][31853.42383] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7567729 +i 0.0000000
+==52372== [ 0 ][31853.47461] operator()():706: Rank 0: Max of Re SC-s:     2.9354573 found at: 0 0 0 -1
+==52372== [ 0 ][31853.52148] operator()():709: Rank 0: Max of Re SC-d:     0.0308420 found at: 0 0 0 1
+==52372== [ 0 ][31853.57227] operator()():714: Rank 0: Max of Re Density:  2.1459528 found at: 0 -1 0 0
+==52372== [ 0 ][31853.57227] operator()():715: Rank 0: Min of Re Density:  -163.3968411 found at: 0 0 -1 0
+==52372== [ 0 ][31853.57227] operator()():716: Rank 0: Max of Im Density:  11.2761635 found at: 0 0 1 0
+==52372== [ 0 ][31853.57227] operator()():717: Rank 0: Min of Im Density:  -1.8134315 found at: 16 1 0 0
+==52372== [ 0 ][31853.61914] operator()():722: Rank 0: Max of Re Magnetic: 23.0278672 found at: 12 -24 1 0
+==52372== [ 0 ][31853.61914] operator()():723: Rank 0: Min of Re Magnetic: -0.0736905 found at: 0 0 -24 -1
+==52372== [ 0 ][31853.62109] operator()():724: Rank 0: Max of Im Magnetic: 1.5580091 found at: 19 -1 0 0
+==52372== [ 0 ][31853.62109] operator()():725: Rank 0: Min of Im Magnetic: -2.8152480 found at: 12 19 0 0
+==52372== [ 0 ][31853.62109] operator()():730: Rank 0: Filling <n>: 0.683406515330
+==52372== [ 0 ][31853.62109] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][31875.13672] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][31882.05859] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][31888.80664] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][31895.97070] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][31903.72461] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][31911.48047] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][31919.64453] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][31924.78125] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.177377.h5
+==52372== [ 0 ][31924.91602] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 163.396841
+==52372== [ 0 ][31924.91797] operator()():843: Rank 0: Chi magnetic max Re: 24.78750
+==52372== [ 0 ][31924.91797] operator()():844: Rank 0: Chi dwave_si max Re: 1.30771
+==52372== [ 0 ][31924.91797] operator()():845: Rank 0: Chi density  max Re: 1.88579
+==52372== [ 0 ][31924.91797] operator()():846: Rank 0: Chi density  min Re: -4.91867
+==52372== [ 0 ][31924.91797] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29149 0.00303
+==52372== [ 0 ][31924.91797] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.88579 -0.02177
+==52372== [ 0 ][31924.91797] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -0.41352 0.13380
+==52372== [ 0 ][31924.91992] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.19698 0.10471
+==52372== [ 0 ][31924.91992] operator()():314: Rank 0: Computing rhs at: 0.177377
+==52372== [ 0 ][31946.61914] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][31946.62109] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][32002.76953] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][32053.01172] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][32109.10352] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][32165.35156] operator()():314: Rank 0: Computing rhs at: 0.177045
+==52372== [ 0 ][32187.21875] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][32187.21875] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][32243.28711] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][32293.61914] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][32349.74609] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][32406.00000] operator()():314: Rank 0: Computing rhs at: 0.176879
+==52372== [ 0 ][32427.94141] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][32427.94336] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][32484.12305] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][32534.38281] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][32590.46875] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][32646.84180] operator()():314: Rank 0: Computing rhs at: 0.176383
+==52372== [ 0 ][32668.93945] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][32668.94141] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][32725.15234] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][32775.47266] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][32831.62500] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][32888.00000] operator()():314: Rank 0: Computing rhs at: 0.175724
+==52372== [ 0 ][32910.41406] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][32910.41797] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][32966.68359] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][33017.00781] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][33073.14062] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][33129.53906] operator()():314: Rank 0: Computing rhs at: 0.175930
+==52372== [ 0 ][33151.78906] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][33151.79297] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][33207.96094] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][33258.26953] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][33314.35938] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][33371.01172] operator()():314: Rank 0: Computing rhs at: 0.177377
+==52372== [ 0 ][33392.68359] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][33392.68750] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][33448.89062] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][33499.18750] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][33555.34375] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][33611.64062] operator()():314: Rank 0: Computing rhs at: 0.177310
+==52372== [ 0 ][33633.31250] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][33633.31250] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][33689.42188] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][33739.69922] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][33795.90234] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][33852.13281] operator()():314: Rank 0: Computing rhs at: 0.177277
+==52372== [ 0 ][33873.81641] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][33873.81641] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][33929.90234] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][33980.22266] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][34036.35156] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][34092.73438] operator()():314: Rank 0: Computing rhs at: 0.177178
+==52372== [ 0 ][34114.50000] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][34114.50000] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][34170.69922] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][34221.00781] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][34277.12891] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][34333.42188] operator()():314: Rank 0: Computing rhs at: 0.177045
+==52372== [ 0 ][34355.23438] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][34355.23438] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][34411.46875] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][34461.74219] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][34517.81641] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][34574.18359] operator()():314: Rank 0: Computing rhs at: 0.177086
+==52372== [ 0 ][34595.97266] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][34595.97656] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][34652.14844] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][34702.48828] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][34758.64453] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][34815.29688] operator()():634: Rank 0: Accepted step at: 0.177045
+==52372== [ 0 ][34816.66797] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7573835 +i -0.0000000
+==52372== [ 0 ][34816.71484] operator()():706: Rank 0: Max of Re SC-s:     2.9541302 found at: 0 0 0 -1
+==52372== [ 0 ][34816.76562] operator()():709: Rank 0: Max of Re SC-d:     0.0318120 found at: 0 0 0 1
+==52372== [ 0 ][34816.81250] operator()():714: Rank 0: Max of Re Density:  2.1604229 found at: 0 -1 0 0
+==52372== [ 0 ][34816.81250] operator()():715: Rank 0: Min of Re Density:  -182.3554072 found at: 0 0 -1 0
+==52372== [ 0 ][34816.81250] operator()():716: Rank 0: Max of Im Density:  13.9435554 found at: 0 0 1 0
+==52372== [ 0 ][34816.81250] operator()():717: Rank 0: Min of Im Density:  -1.8289486 found at: 16 1 0 0
+==52372== [ 0 ][34816.85938] operator()():722: Rank 0: Max of Re Magnetic: 23.4763676 found at: 12 -24 1 0
+==52372== [ 0 ][34816.85938] operator()():723: Rank 0: Min of Re Magnetic: -0.0737176 found at: 0 0 -24 -1
+==52372== [ 0 ][34816.85938] operator()():724: Rank 0: Max of Im Magnetic: 1.5739942 found at: 19 -1 0 0
+==52372== [ 0 ][34816.85938] operator()():725: Rank 0: Min of Im Magnetic: -2.8854537 found at: 12 19 0 0
+==52372== [ 0 ][34816.85938] operator()():730: Rank 0: Filling <n>: 0.683278808439
+==52372== [ 0 ][34816.85938] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][34838.38672] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][34845.72266] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][34852.24609] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][34859.24219] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][34866.79297] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][34874.38281] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][34881.56250] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][34886.71875] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.177045.h5
+==52372== [ 0 ][34886.85547] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 182.355407
+==52372== [ 0 ][34886.85547] operator()():843: Rank 0: Chi magnetic max Re: 25.27885
+==52372== [ 0 ][34886.85547] operator()():844: Rank 0: Chi dwave_si max Re: 1.28558
+==52372== [ 0 ][34886.85547] operator()():845: Rank 0: Chi density  max Re: 1.90336
+==52372== [ 0 ][34886.85547] operator()():846: Rank 0: Chi density  min Re: -4.90877
+==52372== [ 0 ][34886.85938] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29193 0.00483
+==52372== [ 0 ][34886.85938] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.90336 -0.02041
+==52372== [ 0 ][34886.85938] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -0.52642 0.14051
+==52372== [ 0 ][34886.85938] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.28290 0.10792
+==52372== [ 0 ][34886.85938] operator()():314: Rank 0: Computing rhs at: 0.177045
+==52372== [ 0 ][34908.63281] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][34908.63281] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][34964.83594] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][35015.12109] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][35071.21875] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][35127.44531] operator()():314: Rank 0: Computing rhs at: 0.176836
+==52372== [ 0 ][35149.28906] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][35149.28906] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][35205.53906] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][35255.85547] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][35311.96484] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][35368.25391] operator()():314: Rank 0: Computing rhs at: 0.176732
+==52372== [ 0 ][35390.10547] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][35390.10547] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][35446.26562] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][35496.59375] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][35552.73828] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][35608.96875] operator()():314: Rank 0: Computing rhs at: 0.176420
+==52372== [ 0 ][35630.95703] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][35630.95703] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][35687.11719] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][35737.43359] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][35793.60156] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][35849.94141] operator()():314: Rank 0: Computing rhs at: 0.176004
+==52372== [ 0 ][35872.06641] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][35872.06641] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][35928.22266] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][35978.53125] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][36034.67188] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][36090.99219] operator()():314: Rank 0: Computing rhs at: 0.176134
+==52372== [ 0 ][36113.06250] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][36113.06641] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][36169.17969] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][36219.48828] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][36275.61328] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][36332.23047] operator()():314: Rank 0: Computing rhs at: 0.177045
+==52372== [ 0 ][36353.98828] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][36353.98828] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][36410.19141] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][36460.51953] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][36516.66406] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][36572.99219] operator()():314: Rank 0: Computing rhs at: 0.176989
+==52372== [ 0 ][36594.74219] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][36594.74219] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][36650.93359] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][36701.18750] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][36757.31250] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][36813.58984] operator()():314: Rank 0: Computing rhs at: 0.176960
+==52372== [ 0 ][36835.39062] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][36835.39062] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][36891.54688] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][36941.91406] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][36997.97656] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][37054.31641] operator()():314: Rank 0: Computing rhs at: 0.176876
+==52372== [ 0 ][37076.16406] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][37076.16406] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][37132.26953] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][37182.66406] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][37238.78125] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][37295.10938] operator()():314: Rank 0: Computing rhs at: 0.176763
+==52372== [ 0 ][37316.97266] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][37316.97266] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][37373.05859] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][37423.45703] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][37479.62109] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][37536.00781] operator()():314: Rank 0: Computing rhs at: 0.176798
+==52372== [ 0 ][37557.87891] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][37557.88281] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][37614.10156] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][37664.39062] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][37720.59375] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][37777.25781] operator()():634: Rank 0: Accepted step at: 0.176763
+==52372== [ 0 ][37778.62891] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7579024 +i 0.0000000
+==52372== [ 0 ][37778.67578] operator()():706: Rank 0: Max of Re SC-s:     2.9702776 found at: 0 0 0 -1
+==52372== [ 0 ][37778.72266] operator()():709: Rank 0: Max of Re SC-d:     0.0326751 found at: 0 0 0 1
+==52372== [ 0 ][37778.77344] operator()():714: Rank 0: Max of Re Density:  2.1729029 found at: 0 -1 0 0
+==52372== [ 0 ][37778.77344] operator()():715: Rank 0: Min of Re Density:  -202.0838264 found at: 0 0 -1 0
+==52372== [ 0 ][37778.77344] operator()():716: Rank 0: Max of Im Density:  17.0220573 found at: 0 0 1 0
+==52372== [ 0 ][37778.77344] operator()():717: Rank 0: Min of Im Density:  -1.8423317 found at: 16 1 0 0
+==52372== [ 0 ][37778.81641] operator()():722: Rank 0: Max of Re Magnetic: 23.8709582 found at: 12 -24 1 0
+==52372== [ 0 ][37778.82031] operator()():723: Rank 0: Min of Re Magnetic: -0.0737399 found at: 0 0 -24 -1
+==52372== [ 0 ][37778.82031] operator()():724: Rank 0: Max of Im Magnetic: 1.5877340 found at: 19 -1 0 0
+==52372== [ 0 ][37778.82031] operator()():725: Rank 0: Min of Im Magnetic: -2.9476627 found at: 12 19 0 0
+==52372== [ 0 ][37778.82031] operator()():730: Rank 0: Filling <n>: 0.683170341215
+==52372== [ 0 ][37778.82031] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][37800.46484] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][37807.62500] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][37814.71484] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][37821.45312] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][37829.06250] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][37836.62891] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][37843.66797] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][37848.80859] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.176763.h5
+==52372== [ 0 ][37848.94531] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 202.083826
+==52372== [ 0 ][37848.94922] operator()():843: Rank 0: Chi magnetic max Re: 25.71121
+==52372== [ 0 ][37848.94922] operator()():844: Rank 0: Chi dwave_si max Re: 1.26996
+==52372== [ 0 ][37848.94922] operator()():845: Rank 0: Chi density  max Re: 1.91866
+==52372== [ 0 ][37848.94922] operator()():846: Rank 0: Chi density  min Re: -4.96456
+==52372== [ 0 ][37848.94922] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29239 0.00357
+==52372== [ 0 ][37848.94922] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.91866 -0.02219
+==52372== [ 0 ][37848.94922] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -0.62772 0.14823
+==52372== [ 0 ][37848.94922] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.35817 0.11093
+==52372== [ 0 ][37848.95312] operator()():314: Rank 0: Computing rhs at: 0.176763
+==52372== [ 0 ][37870.83203] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][37870.83203] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][37926.98047] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][37977.28906] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][38033.45312] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][38089.71094] operator()():314: Rank 0: Computing rhs at: 0.176571
+==52372== [ 0 ][38111.32031] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][38111.32031] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][38167.48438] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][38217.76953] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][38273.89844] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][38330.23438] operator()():314: Rank 0: Computing rhs at: 0.176474
+==52372== [ 0 ][38352.14453] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][38352.14844] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][38408.31641] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][38458.65625] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][38514.71484] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][38570.96875] operator()():314: Rank 0: Computing rhs at: 0.176186
+==52372== [ 0 ][38593.07031] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][38593.07031] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][38649.23047] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][38699.55859] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][38755.78125] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][38812.09375] operator()():314: Rank 0: Computing rhs at: 0.175802
+==52372== [ 0 ][38834.25391] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][38834.25391] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][38890.44922] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][38940.76562] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][38996.90234] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][39053.25781] operator()():314: Rank 0: Computing rhs at: 0.175922
+==52372== [ 0 ][39075.40234] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][39075.40625] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][39131.58984] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][39181.92969] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][39238.01562] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][39294.61719] operator()():314: Rank 0: Computing rhs at: 0.176763
+==52372== [ 0 ][39316.44922] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][39316.44922] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][39372.58984] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][39422.92578] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][39479.10547] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][39535.40234] operator()():314: Rank 0: Computing rhs at: 0.176725
+==52372== [ 0 ][39557.21094] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][39557.21484] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][39613.37500] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][39663.67188] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][39719.83984] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][39776.12500] operator()():314: Rank 0: Computing rhs at: 0.176705
+==52372== [ 0 ][39797.96875] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][39797.96875] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][39854.17188] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][39904.47656] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][39960.61328] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][40016.92578] operator()():314: Rank 0: Computing rhs at: 0.176648
+==52372== [ 0 ][40038.73047] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][40038.73047] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][40094.88672] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][40145.26562] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][40201.42188] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][40257.77344] operator()():314: Rank 0: Computing rhs at: 0.176571
+==52372== [ 0 ][40279.41406] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][40279.41406] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][40335.69531] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][40385.96094] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][40442.09375] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][40498.42969] operator()():314: Rank 0: Computing rhs at: 0.176595
+==52372== [ 0 ][40520.07031] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][40520.07031] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][40576.27734] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][40626.62500] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][40682.76953] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][40739.43359] operator()():634: Rank 0: Accepted step at: 0.176571
+==52372== [ 0 ][40740.80078] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7582570 +i 0.0000000
+==52372== [ 0 ][40740.84766] operator()():706: Rank 0: Max of Re SC-s:     2.9814704 found at: 0 0 0 -1
+==52372== [ 0 ][40740.89453] operator()():709: Rank 0: Max of Re SC-d:     0.0332872 found at: 0 0 0 1
+==52372== [ 0 ][40740.94141] operator()():714: Rank 0: Max of Re Density:  2.1815389 found at: 0 -1 0 0
+==52372== [ 0 ][40740.94141] operator()():715: Rank 0: Min of Re Density:  -218.0848321 found at: 0 0 -1 0
+==52372== [ 0 ][40740.94141] operator()():716: Rank 0: Max of Im Density:  19.7471424 found at: 0 0 1 0
+==52372== [ 0 ][40740.94141] operator()():717: Rank 0: Min of Im Density:  -1.8515856 found at: 16 1 0 0
+==52372== [ 0 ][40740.99219] operator()():722: Rank 0: Max of Re Magnetic: 24.1481659 found at: 12 -24 1 0
+==52372== [ 0 ][40740.99219] operator()():723: Rank 0: Min of Re Magnetic: -0.0737548 found at: 0 0 -24 -1
+==52372== [ 0 ][40740.99219] operator()():724: Rank 0: Max of Im Magnetic: 1.5972217 found at: 19 -1 0 0
+==52372== [ 0 ][40740.99219] operator()():725: Rank 0: Min of Im Magnetic: -2.9916133 found at: 12 19 0 0
+==52372== [ 0 ][40740.99219] operator()():730: Rank 0: Filling <n>: 0.683096219135
+==52372== [ 0 ][40740.99219] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][40762.38281] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][40769.81641] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][40776.87500] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][40783.85156] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][40790.87109] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][40798.26562] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][40805.89844] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][40811.02734] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.176571.h5
+==52372== [ 0 ][40811.16406] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 218.084832
+==52372== [ 0 ][40811.16406] operator()():843: Rank 0: Chi magnetic max Re: 26.01658
+==52372== [ 0 ][40811.16406] operator()():844: Rank 0: Chi dwave_si max Re: 1.26034
+==52372== [ 0 ][40811.16797] operator()():845: Rank 0: Chi density  max Re: 1.92836
+==52372== [ 0 ][40811.16797] operator()():846: Rank 0: Chi density  min Re: -5.00512
+==52372== [ 0 ][40811.16797] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29183 0.00570
+==52372== [ 0 ][40811.16797] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.92836 -0.02039
+==52372== [ 0 ][40811.16797] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -0.70018 0.14554
+==52372== [ 0 ][40811.16797] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.41113 0.11083
+==52372== [ 0 ][40811.16797] operator()():314: Rank 0: Computing rhs at: 0.176571
+==52372== [ 0 ][40832.77344] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][40832.77344] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][40888.98438] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][40939.47656] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][40995.62109] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][41051.98047] operator()():314: Rank 0: Computing rhs at: 0.176429
+==52372== [ 0 ][41073.93359] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][41073.93359] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][41130.09766] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][41180.47266] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][41236.48828] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][41292.80859] operator()():314: Rank 0: Computing rhs at: 0.176358
+==52372== [ 0 ][41314.74219] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][41314.74219] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][41370.93359] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][41421.31250] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][41477.41406] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][41533.75391] operator()():314: Rank 0: Computing rhs at: 0.176146
+==52372== [ 0 ][41555.80078] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][41555.80469] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][41612.01562] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][41662.32812] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][41718.46875] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][41774.78125] operator()():314: Rank 0: Computing rhs at: 0.175864
+==52372== [ 0 ][41796.92969] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][41796.92969] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][41853.12891] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][41903.43750] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][41959.56641] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][42015.80859] operator()():314: Rank 0: Computing rhs at: 0.175952
+==52372== [ 0 ][42037.92969] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][42037.92969] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][42094.14844] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][42144.47656] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][42200.65625] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][42257.33984] operator()():314: Rank 0: Computing rhs at: 0.176571
+==52372== [ 0 ][42278.96875] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][42278.96875] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][42335.09375] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][42385.35156] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][42441.47656] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][42497.73828] operator()():314: Rank 0: Computing rhs at: 0.176542
+==52372== [ 0 ][42519.26562] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][42519.26562] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][42575.50781] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][42625.76953] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][42681.92188] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][42738.22656] operator()():314: Rank 0: Computing rhs at: 0.176528
+==52372== [ 0 ][42759.82812] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][42759.83203] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][42816.04297] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][42866.33203] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][42922.45312] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][42978.71094] operator()():314: Rank 0: Computing rhs at: 0.176486
+==52372== [ 0 ][43000.54688] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][43000.55078] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][43056.87109] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][43107.20312] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][43163.37109] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][43219.73047] operator()():314: Rank 0: Computing rhs at: 0.176429
+==52372== [ 0 ][43241.66016] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][43241.66016] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][43297.87891] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][43348.19141] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][43404.26562] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][43460.68750] operator()():314: Rank 0: Computing rhs at: 0.176447
+==52372== [ 0 ][43482.63281] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][43482.63672] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][43538.86719] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][43589.18359] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][43645.28125] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][43701.90234] operator()():634: Rank 0: Accepted step at: 0.176429
+==52372== [ 0 ][43703.27734] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7585176 +i 0.0000000
+==52372== [ 0 ][43703.32422] operator()():706: Rank 0: Max of Re SC-s:     2.9897772 found at: 0 0 0 -1
+==52372== [ 0 ][43703.37109] operator()():709: Rank 0: Max of Re SC-d:     0.0337491 found at: 0 0 0 1
+==52372== [ 0 ][43703.42578] operator()():714: Rank 0: Max of Re Density:  2.1879373 found at: 0 -1 0 0
+==52372== [ 0 ][43703.42578] operator()():715: Rank 0: Min of Re Density:  -231.4740842 found at: 0 0 -1 0
+==52372== [ 0 ][43703.42578] operator()():716: Rank 0: Max of Im Density:  22.1854835 found at: 0 0 1 0
+==52372== [ 0 ][43703.42578] operator()():717: Rank 0: Min of Im Density:  -1.8584401 found at: 16 1 0 0
+==52372== [ 0 ][43703.47266] operator()():722: Rank 0: Max of Re Magnetic: 24.3558637 found at: 12 -24 1 0
+==52372== [ 0 ][43703.47266] operator()():723: Rank 0: Min of Re Magnetic: -0.0737656 found at: 0 0 -24 -1
+==52372== [ 0 ][43703.47266] operator()():724: Rank 0: Max of Im Magnetic: 1.6042445 found at: 19 -1 0 0
+==52372== [ 0 ][43703.47266] operator()():725: Rank 0: Min of Im Magnetic: -3.0246773 found at: 12 19 0 0
+==52372== [ 0 ][43703.47266] operator()():730: Rank 0: Filling <n>: 0.683041767344
+==52372== [ 0 ][43703.47266] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][43725.17578] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][43732.51562] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][43740.17969] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][43747.51953] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][43754.99609] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][43763.20703] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][43770.35156] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][43775.49219] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.176429.h5
+==52372== [ 0 ][43775.64062] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 231.474084
+==52372== [ 0 ][43775.64062] operator()():843: Rank 0: Chi magnetic max Re: 26.24482
+==52372== [ 0 ][43775.64062] operator()():844: Rank 0: Chi dwave_si max Re: 1.25288
+==52372== [ 0 ][43775.64062] operator()():845: Rank 0: Chi density  max Re: 1.93535
+==52372== [ 0 ][43775.64062] operator()():846: Rank 0: Chi density  min Re: -5.03510
+==52372== [ 0 ][43775.64062] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.29119 0.00569
+==52372== [ 0 ][43775.64062] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.93535 -0.02070
+==52372== [ 0 ][43775.64062] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -0.75593 0.15588
+==52372== [ 0 ][43775.64453] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.44967 0.11500
+==52372== [ 0 ][43775.64453] operator()():314: Rank 0: Computing rhs at: 0.176429
+==52372== [ 0 ][43797.58594] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][43797.58594] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][43853.78516] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][43904.09375] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][43960.24609] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][44016.46875] operator()():314: Rank 0: Computing rhs at: 0.176319
+==52372== [ 0 ][44038.47266] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][44038.47266] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][44094.68750] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][44144.97266] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][44201.18359] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][44257.43750] operator()():314: Rank 0: Computing rhs at: 0.176263
+==52372== [ 0 ][44279.45312] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][44279.45312] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][44335.66406] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][44385.94141] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][44442.03906] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][44498.39062] operator()():314: Rank 0: Computing rhs at: 0.176098
+==52372== [ 0 ][44520.44141] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][44520.44141] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][44576.60156] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][44626.93359] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][44683.06641] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][44739.42969] operator()():314: Rank 0: Computing rhs at: 0.175878
+==52372== [ 0 ][44761.56641] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][44761.56641] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][44817.77734] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][44868.13281] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][44924.28125] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][44980.54688] operator()():314: Rank 0: Computing rhs at: 0.175946
+==52372== [ 0 ][45002.67969] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][45002.67969] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][45058.92969] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][45109.16797] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][45165.27734] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][45221.94922] operator()():314: Rank 0: Computing rhs at: 0.176429
+==52372== [ 0 ][45243.88281] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][45243.88281] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][45300.10938] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][45350.42578] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][45406.48828] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][45462.74609] operator()():314: Rank 0: Computing rhs at: 0.176395
+==52372== [ 0 ][45484.71484] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][45484.71875] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][45540.89844] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][45591.19141] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][45647.32031] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][45703.65234] operator()():314: Rank 0: Computing rhs at: 0.176378
+==52372== [ 0 ][45725.58984] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][45725.58984] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][45781.78906] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][45832.07812] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][45888.27344] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][45944.55469] operator()():314: Rank 0: Computing rhs at: 0.176326
+==52372== [ 0 ][45966.53125] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][45966.53125] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][46022.62109] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][46072.89844] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][46129.07812] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][46185.43750] operator()():314: Rank 0: Computing rhs at: 0.176258
+==52372== [ 0 ][46207.46875] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][46207.46875] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][46263.68359] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][46314.00000] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][46370.07812] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][46426.46094] operator()():314: Rank 0: Computing rhs at: 0.176279
+==52372== [ 0 ][46448.44141] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][46448.44141] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][46504.63672] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][46554.96484] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][46611.08984] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][46667.64453] operator()():634: Rank 0: Accepted step at: 0.176258
+==52372== [ 0 ][46669.01562] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7588331 +i 0.0000000
+==52372== [ 0 ][46669.06641] operator()():706: Rank 0: Max of Re SC-s:     2.9999270 found at: 0 0 0 -1
+==52372== [ 0 ][46669.11719] operator()():709: Rank 0: Max of Re SC-d:     0.0343227 found at: 0 0 0 1
+==52372== [ 0 ][46669.16406] operator()():714: Rank 0: Max of Re Density:  2.1957431 found at: 0 -1 0 0
+==52372== [ 0 ][46669.16406] operator()():715: Rank 0: Min of Re Density:  -249.9447116 found at: 0 0 -1 0
+==52372== [ 0 ][46669.16406] operator()():716: Rank 0: Max of Im Density:  25.7871227 found at: 0 0 1 0
+==52372== [ 0 ][46669.16406] operator()():717: Rank 0: Min of Im Density:  -1.8667969 found at: 16 1 0 0
+==52372== [ 0 ][46669.20703] operator()():722: Rank 0: Max of Re Magnetic: 24.6119690 found at: 12 -24 1 0
+==52372== [ 0 ][46669.20703] operator()():723: Rank 0: Min of Re Magnetic: -0.0737785 found at: 0 0 -24 -1
+==52372== [ 0 ][46669.21094] operator()():724: Rank 0: Max of Im Magnetic: 1.6128004 found at: 19 -1 0 0
+==52372== [ 0 ][46669.21094] operator()():725: Rank 0: Min of Im Magnetic: -3.0656054 found at: 12 19 0 0
+==52372== [ 0 ][46669.21094] operator()():730: Rank 0: Filling <n>: 0.682975865704
+==52372== [ 0 ][46669.21094] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][46690.97266] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][46698.02734] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][46705.15625] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][46712.00781] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][46719.67969] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][46726.88281] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][46733.67578] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][46738.82422] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.176258.h5
+==52372== [ 0 ][46738.96094] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 249.944712
+==52372== [ 0 ][46738.96094] operator()():843: Rank 0: Chi magnetic max Re: 26.52879
+==52372== [ 0 ][46738.96094] operator()():844: Rank 0: Chi dwave_si max Re: 1.24373
+==52372== [ 0 ][46738.96094] operator()():845: Rank 0: Chi density  max Re: 1.94295
+==52372== [ 0 ][46738.96094] operator()():846: Rank 0: Chi density  min Re: -5.11831
+==52372== [ 0 ][46738.96094] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.28953 0.00263
+==52372== [ 0 ][46738.96484] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.94295 -0.02415
+==52372== [ 0 ][46738.96484] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -0.82481 0.16061
+==52372== [ 0 ][46738.96484] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.49832 0.11714
+==52372== [ 0 ][46738.96484] operator()():314: Rank 0: Computing rhs at: 0.176258
+==52372== [ 0 ][46760.96094] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][46760.96094] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][46817.16406] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][46867.51172] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][46923.70703] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][46980.00391] operator()():314: Rank 0: Computing rhs at: 0.176154
+==52372== [ 0 ][47001.98047] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][47001.98438] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][47058.16016] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][47108.53516] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][47164.76953] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][47221.14844] operator()():314: Rank 0: Computing rhs at: 0.176101
+==52372== [ 0 ][47243.15625] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][47243.15625] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][47299.34766] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][47349.69922] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][47405.77344] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][47462.07812] operator()():314: Rank 0: Computing rhs at: 0.175945
+==52372== [ 0 ][47484.15234] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][47484.15234] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][47540.35938] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][47590.67578] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][47646.87500] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][47703.23438] operator()():314: Rank 0: Computing rhs at: 0.175737
+==52372== [ 0 ][47725.46875] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][47725.46875] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][47781.67969] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][47831.99609] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][47888.12500] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][47944.51953] operator()():314: Rank 0: Computing rhs at: 0.175802
+==52372== [ 0 ][47966.69922] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][47966.70312] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][48022.97656] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][48073.31250] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][48129.44531] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][48186.11719] operator()():314: Rank 0: Computing rhs at: 0.176258
+==52372== [ 0 ][48208.09375] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][48208.09375] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][48264.28516] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][48314.62109] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][48370.76953] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][48427.07422] operator()():314: Rank 0: Computing rhs at: 0.176177
+==52372== [ 0 ][48449.06641] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][48449.06641] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][48505.25781] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][48555.55469] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][48611.69531] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][48667.96484] operator()():314: Rank 0: Computing rhs at: 0.176136
+==52372== [ 0 ][48689.94141] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][48689.94531] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][48746.17578] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][48796.48438] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][48852.57812] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][48908.85156] operator()():314: Rank 0: Computing rhs at: 0.176014
+==52372== [ 0 ][48930.90234] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][48930.90234] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][48987.05859] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][49037.30859] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][49093.49219] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][49149.80078] operator()():314: Rank 0: Computing rhs at: 0.175852
+==52372== [ 0 ][49171.81641] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][49171.82031] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][49228.03906] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][49278.32422] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][49334.55469] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][49390.94922] operator()():314: Rank 0: Computing rhs at: 0.175903
+==52372== [ 0 ][49413.07812] operator()():385: Rank 0: Done precalculation of local quantities!
+==52372== [ 0 ][49413.07812] computeSWaveEquation():255: Rank 0: Computing sWave equation!
+==52372== [ 0 ][49469.24609] computeDWaveEquation():314: Rank 0: Computing dWave equation!
+==52372== [ 0 ][49519.57031] computeDensityEquation():375: Rank 0: Computing charge equation!
+==52372== [ 0 ][49575.73047] computeMagEquation():436: Rank 0: Computing magnetic equation!
+==52372== [ 0 ][49632.46484] operator()():634: Rank 0: Accepted step at: 0.175852
+==52372== [ 0 ][49633.83984] operator()():693: Rank 0: Chi0(lam)-chi0(lam=1): 0.7595811 +i 0.0000000
+==52372== [ 0 ][49633.89062] operator()():706: Rank 0: Max of Re SC-s:     3.0244369 found at: 0 0 0 -1
+==52372== [ 0 ][49633.94141] operator()():709: Rank 0: Max of Re SC-d:     0.0357516 found at: 0 0 0 1
+==52372== [ 0 ][49633.98828] operator()():714: Rank 0: Max of Re Density:  2.2145198 found at: 0 -1 0 0
+==52372== [ 0 ][49633.98828] operator()():715: Rank 0: Min of Re Density:  -307.4675042 found at: 0 0 -1 0
+==52372== [ 0 ][49633.98828] operator()():716: Rank 0: Max of Im Density:  38.7953314 found at: 0 0 1 0
+==52372== [ 0 ][49633.98828] operator()():717: Rank 0: Min of Im Density:  -1.8868941 found at: 16 1 0 0
+==52372== [ 0 ][49634.03125] operator()():722: Rank 0: Max of Re Magnetic: 25.2406967 found at: 12 -24 1 0
+==52372== [ 0 ][49634.03125] operator()():723: Rank 0: Min of Re Magnetic: -0.0738081 found at: 0 0 -24 -1
+==52372== [ 0 ][49634.03125] operator()():724: Rank 0: Max of Im Magnetic: 1.6333596 found at: 19 -1 0 0
+==52372== [ 0 ][49634.03516] operator()():725: Rank 0: Min of Im Magnetic: -3.1668235 found at: 12 19 0 0
+==52372== [ 0 ][49634.03516] operator()():730: Rank 0: Filling <n>: 0.682819646421
+==52372== [ 0 ][49634.03516] operator()():731: Rank 0: dMu: 0.000000000000
+==52372== [ 0 ][49655.80859] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][49663.27344] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][49669.79688] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][49676.26562] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][49684.11719] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][49690.79297] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][49698.74609] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][49703.78906] wr_writePartial():141: Rank 0: Printed result in file ./data/dat-L0.175852.h5
+==52372== [ 0 ][49703.92578] operator()():764: Rank 0: Find max_element of abs(vertex) flow: 307.467504
+==52372== [ 0 ][49703.92578] operator()():843: Rank 0: Chi magnetic max Re: 27.21928
+==52372== [ 0 ][49703.92578] operator()():844: Rank 0: Chi dwave_si max Re: 1.22047
+==52372== [ 0 ][49703.92578] operator()():845: Rank 0: Chi density  max Re: 1.96579
+==52372== [ 0 ][49703.92578] operator()():846: Rank 0: Chi density  min Re: -5.22584
+==52372== [ 0 ][49703.92578] operator()():848: Rank 0: Chi magnetic W=0 Q(pi,pi): 1.28966 0.00398
+==52372== [ 0 ][49703.92578] operator()():849: Rank 0: Chi density  W=0 Q(pi,pi): 1.96579 -0.02349
+==52372== [ 0 ][49703.92969] operator()():850: Rank 0: Chi dwave_si W=0 Q(0,0)  : -1.00010 0.17418
+==52372== [ 0 ][49703.92969] operator()():851: Rank 0: Chi swave_si W=0 Q(0,0)  : -7.61911 0.12300
+==52372== [ 0 ][49725.76953] computeChiMag():264: Rank 0: Computing magnetic susceptibility!
+==52372== [ 0 ][49732.88281] computeChiDWave():92: Rank 0: Computing dwave susceptibility: singlet component
+==52372== [ 0 ][49740.52344] computeChiDWave():92: Rank 0: Computing dwave susceptibility: triplet component
+==52372== [ 0 ][49747.70312] computeChiSWave():8: Rank 0: Computing swave susceptibility: singlet component
+==52372== [ 0 ][49755.26953] computeChiSWave():8: Rank 0: Computing swave susceptibility: triplet component
+==52372== [ 0 ][49762.67578] computeChiDen():176: Rank 0: Computing charge susceptibility!
+==52372== [ 0 ][49773.24609] solver():1060: Rank 0: End of solver
+==52372== [ 0 ][49773.25391] write_data():292: Rank 0: Write compiled: Apr 19 2017 15:42:30
+==52372== [ 0 ][49776.29688] main():508: Rank 0: Printed result in file ./frg-dat_CRITICAL_SCALE.h5
+==52372== [ 0 ][49776.29688] end():188: Rank 0: End program date: May 14 2017 21:28:30
+==52372== [ 0 ][49776.29688] end():189: Rank 0: End program
