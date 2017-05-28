@@ -69,7 +69,7 @@ if not os.path.isfile(filename) :
 
 #### Finished imput files, starting the plotting ##### 
 
-title = r"Channel maximum, $t'=$"+str(tpri)
+title = r"Channel maximum, $t'=$"+str(tpri) +" van Hove filling + 7 \%" 
 plotname = "vanHove_scan_critical_lambda_phi"
 
 data = np.loadtxt(filename, comments="#")
