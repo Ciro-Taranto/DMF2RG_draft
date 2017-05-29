@@ -132,8 +132,8 @@ while  i   <= 1. :
     i +=0.1
 # plt.gca().invert_xaxis()
 plt.legend(loc=4)
-plt.ylabel(r"$\Phi_{\mathrm{max}}$", fontsize = 24) 
-plt.xlabel(r"$(1-\Lambda)$", fontsize = 24)  
+plt.ylabel(r"$\Phi_{\mathrm{max}}$", fontsize = 20) 
+plt.xlabel(r"$\Lambda/\Lambda_0$", fontsize = 20)  
 # plt.xlim([0.001,1])
 plt.xticks(location, ticks) 
 plt.ylim([0,100.]) 

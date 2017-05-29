@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.10.15)  29 MAY 2017 15:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.10.15)  29 MAY 2017 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,9 +214,50 @@ pdf)
  <use vanHove_scan_critical_lambda_phi-eps-converted-to.pdf>
 Package pdftex.def Info: vanHove_scan_critical_lambda_phi-eps-converted-to.pdf 
 used on input line 26.
-(pdftex.def)             Requested size: 462.52863pt x 346.89647pt.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-Overfull \hbox (102.52863pt too wide) in paragraph at lines 26--27
+<images/vanhovelam.png, id=19, 1606.0pt x 1204.5pt>
+File: images/vanhovelam.png Graphic file (type png)
+
+<use images/vanhovelam.png>
+Package pdftex.def Info: images/vanhovelam.png used on input line 33.
+(pdftex.def)             Requested size: 401.49902pt x 301.12427pt.
+
+Overfull \hbox (41.49902pt too wide) in paragraph at lines 33--35
+[][] 
+ []
+
+Package epstopdf Info: Source file: <images/vanHove_scan_critical_lambda_phiSTA
+TIC.eps>
+(epstopdf)                    date: 2017-05-29 14:48:23
+(epstopdf)                    size: 42490 bytes
+(epstopdf)             Output file: <images/vanHove_scan_critical_lambda_phiSTA
+TIC-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-29 15:18:33
+(epstopdf)                    size: 29626 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/vanHove_scan_critic
+al_lambda_phiSTATIC-eps-converted-to.pdf images/vanHove_scan_critical_lambda_ph
+iSTATIC.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/vanHove_scan_critical_lambda_phiSTATIC-eps-converted-to.pdf, id=20, 578
+.16pt x 433.62pt>
+File: images/vanHove_scan_critical_lambda_phiSTATIC-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use images/vanHove_scan_critical_lambda_phiSTATIC-eps-converted-to.pdf>
+Package pdftex.def Info: images/vanHove_scan_critical_lambda_phiSTATIC-eps-conv
+erted-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+<images/static.png, id=21, 1606.0pt x 1204.5pt>
+File: images/static.png Graphic file (type png)
+ <use images/static.png>
+Package pdftex.def Info: images/static.png used on input line 48.
+(pdftex.def)             Requested size: 401.49902pt x 301.12427pt.
+
+Overfull \hbox (41.49902pt too wide) in paragraph at lines 48--50
 [][] 
  []
 
@@ -230,99 +271,99 @@ converted-to.pdf>
 (epstopdf)                    size: 27423 bytes
 (epstopdf)             Command: <repstopdf --outfile=vanHove_plus_scan_critical
 _lambda_phi-eps-converted-to.pdf vanHove_plus_scan_critical_lambda_phi.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<vanHove_plus_scan_critical_lambda_phi-eps-converted-to.pdf, id=19, 578.16pt x 
+<vanHove_plus_scan_critical_lambda_phi-eps-converted-to.pdf, id=22, 578.16pt x 
 433.62pt>
 File: vanHove_plus_scan_critical_lambda_phi-eps-converted-to.pdf Graphic file (
 type pdf)
  <use vanHove_plus_scan_critical_lambda_phi-eps-converted-to.pdf>
 Package pdftex.def Info: vanHove_plus_scan_critical_lambda_phi-eps-converted-to
-.pdf used on input line 32.
-(pdftex.def)             Requested size: 462.52863pt x 346.89647pt.
+.pdf used on input line 56.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-Overfull \hbox (102.52863pt too wide) in paragraph at lines 32--33
-[][] 
- []
-
-<images/vanhovelam.png, id=20, 1606.0pt x 1204.5pt>
-File: images/vanhovelam.png Graphic file (type png)
-
-<use images/vanhovelam.png>
-Package pdftex.def Info: images/vanhovelam.png used on input line 43.
-(pdftex.def)             Requested size: 401.49902pt x 301.12427pt.
-
-Overfull \hbox (41.49902pt too wide) in paragraph at lines 43--45
-[][] 
- []
-
-<images/freqvanhove.png, id=21, 1606.0pt x 1204.5pt>
+[2 <./vanHove_scan_critical_lambda_phi-eps-converted-to.pdf>] [3 <./images/vanh
+ovelam.png (PNG copy)>] <images/freqvanhove.png, id=79, 1606.0pt x 1204.5pt>
 File: images/freqvanhove.png Graphic file (type png)
 
 <use images/freqvanhove.png>
-Package pdftex.def Info: images/freqvanhove.png used on input line 50.
+Package pdftex.def Info: images/freqvanhove.png used on input line 70.
 (pdftex.def)             Requested size: 401.49902pt x 301.12427pt.
 
-Overfull \hbox (41.49902pt too wide) in paragraph at lines 50--51
+Overfull \hbox (41.49902pt too wide) in paragraph at lines 70--71
 [][] 
  []
 
-<images/vanhovepluslambda.png, id=22, 1606.0pt x 1204.5pt>
+<images/vanhovepluslambda.png, id=80, 1606.0pt x 1204.5pt>
 File: images/vanhovepluslambda.png Graphic file (type png)
 
 <use images/vanhovepluslambda.png>
-Package pdftex.def Info: images/vanhovepluslambda.png used on input line 56.
+Package pdftex.def Info: images/vanhovepluslambda.png used on input line 76.
 (pdftex.def)             Requested size: 401.49902pt x 301.12427pt.
 
-Overfull \hbox (41.49902pt too wide) in paragraph at lines 56--58
+Overfull \hbox (41.49902pt too wide) in paragraph at lines 76--78
 [][] 
  []
 
 
-Overfull \hbox (6.47302pt too wide) in paragraph at lines 67--68
+Overfull \hbox (6.47302pt too wide) in paragraph at lines 90--92
 []\T1/cmr/m/n/10.95 The \T1/cmr/m/it/10.95 di-ver-gence \T1/cmr/m/n/10.95 of th
 e chan-nel is as-so-ci-ated with a very spe-cific \T1/cmr/m/it/10.95 frequency-
 
  []
 
-
-Overfull \hbox (6.7335pt too wide) in paragraph at lines 68--69
+[4 <./images/vanHove_scan_critical_lambda_phiSTATIC-eps-converted-to.pdf>]
+[5 <./images/static.png (PNG copy)>]
+Overfull \hbox (6.7335pt too wide) in paragraph at lines 96--97
 []\T1/cmr/m/n/10.95 The charge-channel di-ver-gence arises also in DMF$[]$RG, w
 here the DMFT
  []
 
-[2] [3 <./vanHove_scan_critical_lambda_phi-eps-converted-to.pdf>] [4 <./vanHove
-_plus_scan_critical_lambda_phi-eps-converted-to.pdf>] [5 <./images/vanhovelam.p
-ng (PNG copy)>] [6 <./images/freqvanhove.png (PNG copy)>] [7 <./images/vanhovep
-luslambda.png (PNG copy)>])
+<images/Merged_tpri0105.png, id=154, 1606.0pt x 1204.5pt>
+File: images/Merged_tpri0105.png Graphic file (type png)
+
+<use images/Merged_tpri0105.png>
+Package pdftex.def Info: images/Merged_tpri0105.png used on input line 106.
+(pdftex.def)             Requested size: 401.49902pt x 301.12427pt.
+
+Overfull \hbox (41.49902pt too wide) in paragraph at lines 106--108
+[][] 
+ []
+
+)
 No file paper.bbl.
-[8] (./paper.aux) ) 
+[6 <./vanHove_plus_scan_critical_lambda_phi-eps-converted-to.pdf>] [7 <./images
+/freqvanhove.png (PNG copy)>] [8 <./images/vanhovepluslambda.png (PNG copy)>]
+[9 <./images/Merged_tpri0105.png (PNG copy)>] (./paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2215 strings out of 493315
- 29257 string characters out of 6145892
- 94016 words of memory out of 5000000
- 5629 multiletter control sequences out of 15000+600000
+ 2233 strings out of 493315
+ 29878 string characters out of 6145892
+ 92032 words of memory out of 5000000
+ 5644 multiletter control sequences out of 15000+600000
  14833 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,7n,23p,355b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfti1095.pfb>
-Output written on paper.pdf (8 pages, 552113 bytes).
+ 38i,7n,23p,551b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on paper.pdf (9 pages, 783955 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 271 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
