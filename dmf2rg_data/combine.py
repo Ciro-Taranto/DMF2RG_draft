@@ -13,7 +13,6 @@ title = r"Channel maximum, $t'=$"+str(tpri)
 plotname = "dmf2rg_sevsnose"
 
 def(rawfilename, mark, se):
-
     data = np.loadtxt(rawfilename, comments="#")
     lam = data[:,0]
     ivector = np.rint(data[:,1])
