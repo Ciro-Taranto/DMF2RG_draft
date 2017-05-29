@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.8)  28 MAY 2017 22:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.10.15)  29 MAY 2017 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,21 +23,21 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(/usr/share/texmf/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/share/texmf/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
@@ -45,34 +45,34 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -83,18 +83,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen106
 \epsfysize=\dimen107
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/share/texmf/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 143.
-) (./paper.aux
-
-LaTeX Warning: Label `lamvanp' multiply defined.
-
-)
+Package color Info: Driver file: pdftex.def on input line 130.
+) (./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -109,7 +105,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count89
 \scratchdimen=\dimen108
@@ -122,15 +119,15 @@ LaTeX Font Info:    ... okay on input line 10.
 \MPnumerator=\count93
 \makeMPintoPDFobject=\count94
 \everyMPtoPDFconversion=\toks16
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -139,22 +136,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -166,7 +163,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -197,13 +194,13 @@ om-posed in chan-nels (mag-netic, den-
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <vanHove_scan_critical_lambda_phi.eps>
-(epstopdf)                    date: 2017-05-28 13:20:19
+(epstopdf)                    date: 2017-05-26 18:09:51
 (epstopdf)                    size: 35177 bytes
 (epstopdf)             Output file: <vanHove_scan_critical_lambda_phi-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-05-28 13:20:19
+(epstopdf)                    date: 2017-05-26 18:14:56
 (epstopdf)                    size: 25842 bytes
 (epstopdf)             Command: <repstopdf --outfile=vanHove_scan_critical_lamb
 da_phi-eps-converted-to.pdf vanHove_scan_critical_lambda_phi.eps>
@@ -225,11 +222,11 @@ Overfull \hbox (102.52863pt too wide) in paragraph at lines 24--25
 
 Package epstopdf Info: Source file: <vanHove_plus_scan_critical_lambda_phi.eps>
 
-(epstopdf)                    date: 2017-05-28 13:20:19
+(epstopdf)                    date: 2017-05-26 18:09:51
 (epstopdf)                    size: 39732 bytes
 (epstopdf)             Output file: <vanHove_plus_scan_critical_lambda_phi-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2017-05-28 13:20:19
+(epstopdf)                    date: 2017-05-26 18:14:56
 (epstopdf)                    size: 27439 bytes
 (epstopdf)             Command: <repstopdf --outfile=vanHove_plus_scan_critical
 _lambda_phi-eps-converted-to.pdf vanHove_plus_scan_critical_lambda_phi.eps>
@@ -285,8 +282,8 @@ Overfull \hbox (41.49902pt too wide) in paragraph at lines 54--56
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
@@ -306,37 +303,32 @@ here the DMFT
 [4 <./images/vanhovelam.png (PNG copy)>] [5 <./images/freqvanhove.png (PNG copy
 )>] [6 <./images/vanhovepluslambda.png (PNG copy)>])
 No file paper.bbl.
-[7] (./paper.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[7] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2251 strings out of 494910
- 30592 string characters out of 6179837
- 89096 words of memory out of 5000000
- 5505 multiletter control sequences out of 15000+600000
+ 2215 strings out of 493315
+ 29257 string characters out of 6145892
+ 91016 words of memory out of 5000000
+ 5629 multiletter control sequences out of 15000+600000
  14833 words of font info for 36 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  38i,7n,23p,348b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ciro/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/ci
-ro/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/ciro/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/ciro/.texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecbx1440.600pk> </home/ciro/.texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecti1000.600pk> </home/ciro/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm10
-00.600pk> </home/ciro/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </
-home/ciro/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ciro/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb>
-Output written on paper.pdf (7 pages, 478840 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
+/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfti1095.pfb>
+Output written on paper.pdf (7 pages, 565900 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 197 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

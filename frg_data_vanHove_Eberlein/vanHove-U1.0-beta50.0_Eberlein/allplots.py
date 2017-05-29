@@ -49,8 +49,8 @@ result = Image.new("RGB", (2*x, 2*y))
 for i in range(len(loadedimages)): 
     img = loadedimages[i] 
     # img.thumbnail((400, 400), Image.ANTIALIAS)
-    xnow = i // 2 * x 
-    ynow = i %  2 * y 
+    ynow = i // 2 * y 
+    xnow = i %  2 * x 
     w,h = img.size
     print('pos {0},{1} size {2},{3}'.format(xnow, ynow, 2*x, 2*y))
     result.paste(img, (xnow, ynow, xnow + w, ynow + h))

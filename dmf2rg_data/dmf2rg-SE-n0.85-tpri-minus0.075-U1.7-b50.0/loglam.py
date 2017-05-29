@@ -132,7 +132,7 @@ while  i   <= 1. :
         location.append(np.log(i) ) 
     i +=0.1
 # plt.gca().invert_xaxis()
-plt.legend(loc=4)
+plt.legend(loc=1)
 plt.ylabel(r"$\Phi_{\mathrm{max}}$", fontsize = 24) 
 plt.xlabel(r"$(1-\Lambda)$", fontsize = 24)  
 # plt.xlim([0.001,1])

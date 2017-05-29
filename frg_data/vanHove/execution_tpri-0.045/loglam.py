@@ -6,11 +6,14 @@ import os
 import shutil
 import matplotlib.pyplot as plt
 import h5py
-
+def fm(x,y): 
+    return -1 if np.sqrt(x**2+y**2) < np.sqrt((np.pi-x)**2+(np.pi-y)**2) else 1
 def readh5andWrite(filename, data,  onlyRe, check):
     casa ="./data/"
     try: 
-        f = h5py.File(casa+filename,"r")   
+        f = h5py.File(casa+filename,"r")  
+        kx         = f["DMF2RG/Vertex/k_grid_x"]
+        ky         = f["DMF2RG/Vertex/k_grid_y"]
         Phi_mag_Re = f["DMF2RG/Vertex/Phi_magnetic_Re"] 
         Phi_mag_Im = f["DMF2RG/Vertex/Phi_magnetic_Im"]
         Phi_mag  = np.sqrt(Phi_mag_Re[:,:,:,:]**2 +((Phi_mag_Im [:,:,:,:]**2) if not onlyRe  else  0.)  ) 
@@ -35,7 +38,8 @@ def readh5andWrite(filename, data,  onlyRe, check):
         if argsc_d[0] != 0 : 
             print "what is going on?" 
             print "argsc_d=",argsc_d 
-        data.append([f["Parameters/L"][0], argmag[0], Phi_mag[argmag],argden[0], Phi_den[argden], argsc_s[0], Phi_sc_s[argsc_s], argsc_d[0], Phi_sc_d[argsc_d], Phi_mag[16,argmag[1],argmag[2],argmag[3] ] ]   )
+        info = 16 if (argmag[0] == 16) else ( 0 if argmag[0] == 0 else fm(kx[argmag[0]], ky[argmag[0]]) )  
+        data.append([f["Parameters/L"][0], info , Phi_mag[argmag],argden[0], Phi_den[argden], argsc_s[0], Phi_sc_s[argsc_s], argsc_d[0], Phi_sc_d[argsc_d], Phi_mag[16,argmag[1],argmag[2],argmag[3] ] ]   )
     except:
         print "Not able to read file:", filename
 
@@ -50,6 +54,7 @@ casa="./data/"
 tpri = float( os.getcwd().split('-')[1])
 
 rawfilename = "rawdata_function_lam.dat"
+if os.path.isfile(rawfilename) : os.remove(rawfilename) 
 if not os.path.isfile(rawfilename) :
     datafiles = os.listdir(casa)
     data = []  
@@ -91,8 +96,8 @@ sc_d = data[:,8]
 iAF = False 
 FM  = False 
 for i in range(1,np.shape(data)[0]) : 
-    iAF = True if (np.rint(data[i,1]) != 16  and np.rint(data[i,1]) != 0 ) else iAF   
-    FM  = True if (np.rint(data[i,1]) ==  0) else FM 
+    iAF = True if (np.rint(data[i,1]) ==  1) else iAF   
+    FM  = True if (np.rint(data[i,1]) ==  0) or (np.rint(data[i,1]) == -1) else FM 
 
 string = [  'AF',  'iAF',  'Charge' , 'FM', 'dWave', 'swave']
 string2 = [  'AF x 20',  'iAF x 20',  'Charge x 20 ' , 'FM x 20 ', 'dWave x 20', 'swave x 20']
@@ -112,7 +117,7 @@ small = False if np.max(density) > 100./40. else True
 plt.plot(  np.log(lam[:]) , (20. if small else 1.) * density, 'o' , color=col[2], label=string[2] if not small else string2[2] )
 # FM 
 if FM :
-    plt.plot(  np.log(lam[:]) , incommensurateAF, 'o' , color=col[3], label=string[3] )
+    plt.plot(  np.log(lam[:]) , incommensurateAF, 'o' if (np.rint(data[-1][1]) ==0) else 'v' , color=col[3], label= string[3] if (np.rint(data[-1][1]) ==0) else 'i'+string[3]  )
     # plt.plot(  np.log(lam[ivector == 0 ]) , incommensurateAF[ivector == 0 ], 'o' , color=col[3], label=string[3] )
 # swave 
 small = False if np.max(sc_s) > 100./40. else True  
