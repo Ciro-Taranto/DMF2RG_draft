@@ -7,26 +7,16 @@ import matplotlib.pyplot as plt
 import h5py 
 from PIL import Image 
 
-outputname = "merged" 
-origin = os.getcwd() 
-dire = next(os.walk(origin))[1] 
-plotstomerge = []
+outputname = "dmf2rglam" 
 tpri =0.075
-rawfilename = "rawdata_function_lam.dat"
-for d in next(os.walk(origin))[1]:
-    f=d+'/'+str(tpri)+rawfilename+".png"
-    if not os.path.isfile(f): 
-        print "non c'e' il file", f 
-        sys.exit() 
-    try : 
-        plotstomerge.append(Image.open(f)) 
-    except: 
-        print "Something went wrong while reading" 
+if len (sys.argv) < 3 : 
+    print "not enough arguments" 
+
+plotstomerge = [ Image.open(os.getcwd()+"/"+sys.argv[1])  ,Image.open(os.getcwd()+"/"+ sys.argv[2]) ]
 x,y = plotstomerge[0].size 
 result = Image.new("RGB", (2*x, y))
 for i in range(len(plotstomerge)): 
     img = plotstomerge[i] 
-    # img.thumbnail((400, 400), Image.ANTIALIAS)
     xnow = i % 2 * x 
     ynow = 0 
     w,h = img.size

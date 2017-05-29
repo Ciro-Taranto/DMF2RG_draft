@@ -76,7 +76,7 @@ if not os.path.isfile(rawfilename) :
 
 #### Finished imput files, starting the plotting ##### 
 
-title = r"Channel maximum, $t'=$"+str(tpri)
+title = r"Channel maximum, $t'=$"+str(tpri)+" with self energy" 
 plotname = "vanHove_scan_critical_lambda_phi"
 
 data = np.loadtxt(rawfilename, comments="#")
@@ -95,8 +95,12 @@ for i in range(1,np.shape(data)[0]) :
     iAF = True if (np.rint(data[i,1]) != 16  and np.rint(data[i,1]) != 0 ) else iAF   
     FM  = True if (np.rint(data[i,1]) ==  0) else FM 
 
-string = [  'AF',  'iAF',  'Charge' , 'FM', 'dWave', 'swave']
-string2 = [  'AF x 20',  'iAF x 20',  'Charge x 20 ' , 'FM x 20 ', 'dWave x 20', 'swave x 20']
+string = [  r'AF',  r'iAF',  r'Charge' , r'FM', r'dWave', r'swave']
+for i in range(len(string)) :
+    string[i] = string[i]+" with  $\Sigma$" 
+string2 = [  r'AF x 20',  r'iAF x 20',  r'Charge x 20 ' , r'FM x 20 ', r'dWave x 20', r'swave x 20']
+for i in range(len(string)) :
+    string2[i] = string2[i]+" with  $\Sigma$" 
 col    = [   'r',   'r' ,  'Black'  , 'Blue', 'c'   , 'Green']
 
 # AF
