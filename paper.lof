@@ -52,6 +52,15 @@
 \end{figure}
 \begin{figure}
 
+\includegraphics[scale=0.25]{images/susceptibilityfrg.png}
+\caption{ Magnetic susceptibility  in the BZ computed by fRG, for the $t'$ points where the charge channel shows the divergence.
+Top $t'=-0.09t$ (left), $t'=-0.095$ (right). Bottom $t'=-0.100$ (left), $t'=-0.105$ (right). Note that the increasing the next neighbors hopping the maxima in the susceptibility shift more to the region near $\mathbf{Q} = 0,0$.
+ }
+\label{susceptibilityfrg}
+
+\end{figure}
+\begin{figure}
+
 \includegraphics[scale=0.3]{images/Merged_tpri0105.png}
 \caption{Frequency structure of the channels. Top left: magnetic channel for momentum closet to $\pi,\pi$ where the vertex has a local maximum, top right: magnetic channel for momentum close to $0,0$, in both cases external frequency transfer $\Omega=0$.
 Bottom left: charge channel for external frequency transfer $\Omega=0$ and transfer momentum $0,0$, bottom right: the same but for \emph{finite} frequency transfer $\Omega = 2\pi/\beta$. }
