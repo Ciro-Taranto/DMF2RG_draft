@@ -76,7 +76,7 @@ if not os.path.isfile(rawfilename) :
 
 #### Finished imput files, starting the plotting ##### 
 
-title = r"Channel maximum, $t'=$"+str(tpri)+" ,no self-energy" 
+title = r"DMF$^2$RG: $\Phi_{\mathrm{max}}$, $t'=$"+str(tpri)+" ,without $\Sigma$" 
 plotname = "vanHove_scan_critical_lambda_phi"
 
 data = np.loadtxt(rawfilename, comments="#")

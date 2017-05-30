@@ -1,0 +1,69 @@
+\begin{figure}
+\includegraphics[scale=0.5]{vanHove_scan_critical_lambda_phi.eps}
+\caption{Critical scale in full frequency fRG (interaction cutoff) as a function of the nearest neighbors hopping and for van Hove filling. The color of the symbol indicates the kind of instability that is realized.  } \label{phasediag_van_hove}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.25]{images/vanhovelam.png}
+\caption{Flow of the maximum of the absolute value of each channel for differnt values of $t'$ and at van Hove filling.
+}
+\label{lamvan}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.5]{images/vanHove_scan_critical_lambda_phiSTATIC.eps}
+\caption{Critical scale in static fRG (interaction cutoff) as a function of the nearest neighbors hopping and for van Hove filling. The color of the symbol indicates the kind of instability that is realized.}
+\label{phasediag_van_hoveSTATIC}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.25]{images/static.png}
+\caption{Flow of the maximum of the absolute value of each channel for different values of $t'$ and at van Hove filling, in the static approximation for the vertex.
+}
+\label{lamstatic}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.5]{vanHove_plus_scan_critical_lambda_phi.eps}
+\caption{Critical scale in full frequency fRG (interaction cutoff) as a function of the nearest neighbors hopping and for van Hove filling + 7 \%. The color of the symbol indicates the kind of instability that is realized.}
+\label{phasediag_van_hove_plus}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.25]{images/freqvanhove.png}
+\caption{\textbf{frequency cutoff} Flow of the maximum of the absolute value of each channel for differnt values of $t'$ and at van Hove filling. }
+\label{freqlam}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.25]{images/vanhovepluslambda.png}
+\caption{Flow of the maximum of the absolute value of each channel for differnt values of $t'$ and at van Hove filling $+7 \%$.
+}
+\label{lamvanplus}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.25]{images/Merged_tpri0105.png}
+\caption{Frequency structure of the channels. Top left: magnetic channel for momentum closet to $\pi,\pi$ where the vertex has a local maximum, top right: magnetic channel for momentum close to $0,0$, in both cases external frequency transfer $\Omega=0$.
+Bottom left: charge channel for external frequency transfer $\Omega=0$ and transfer momentum $0,0$, bottom right: the same but for \emph{finite} frequency transfer $\Omega = 2\pi/\beta$. }
+\label{structurechargefrg}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\includegraphics[scale=0.3]{images/sevsnose.png}
+\caption{Max values of the channels as functions of cutoff scale, with and without self energy. }
+ \end{figure}
+
+ \begin{figure}
+ \includegraphics[scale=0.3]{images/Fermi_occupation_sevsnose.png}
+ \caption{Occupation in the BZ: left non interacting, right with self energy from fRG.}
+ \end{figure}

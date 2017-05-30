@@ -1,0 +1,106 @@
+\begin{figure}
+
+\includegraphics[scale=0.7]{vanHove_scan_critical_lambda_phi.eps}
+\caption{Critical scale in full frequency fRG (interaction cutoff) as a function of the nearest neighbors hopping and for van Hove filling. The color of the symbol indicates the kind of instability that is realized.  } \label{phasediag_van_hove}
+
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.32,angle = 90]{images/vanhovelam.png}
+\caption{Flow of the maximum of the absolute value of each channel for differnt values of $t'$ and at van Hove filling.
+}
+\label{lamvan}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.7]{images/vanHove_scan_critical_lambda_phiSTATIC.eps}
+\caption{Critical scale in static fRG (interaction cutoff) as a function of the nearest neighbors hopping and for van Hove filling. The color of the symbol indicates the kind of instability that is realized.}
+\label{phasediag_van_hoveSTATIC}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.32,angle = 90]{images/static.png}
+\caption{Flow of the maximum of the absolute value of each channel for different values of $t'$ and at van Hove filling, in the static approximation for the vertex.
+}
+\label{lamstatic}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.7]{vanHove_plus_scan_critical_lambda_phi.eps}
+\caption{Critical scale in full frequency fRG (interaction cutoff) as a function of the nearest neighbors hopping and for van Hove filling + 7 \%. The color of the symbol indicates the kind of instability that is realized.}
+\label{phasediag_van_hove_plus}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.32,angle =90]{images/freqvanhove.png}
+\caption{\textbf{frequency cutoff} Flow of the maximum of the absolute value of each channel for differnt values of $t'$ and at van Hove filling. }
+\label{freqlam}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.32,angle =90]{images/vanhovepluslambda.png}
+\caption{Flow of the maximum of the absolute value of each channel for differnt values of $t'$ and at van Hove filling $+7 \%$.
+}
+\label{lamvanplus}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.4]{images/Merged_tpri0105.png}
+\caption{Frequency structure of the channels. Top left: magnetic channel for momentum closet to $\pi,\pi$ where the vertex has a local maximum, top right: magnetic channel for momentum close to $0,0$, in both cases external frequency transfer $\Omega=0$.
+Bottom left: charge channel for external frequency transfer $\Omega=0$ and transfer momentum $0,0$, bottom right: the same but for \emph{finite} frequency transfer $\Omega = 2\pi/\beta$. }
+\label{structurechargefrg}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.7]{images/sevsnose.png}
+\caption{Max values of the channels as functions of cutoff scale, with and without self energy. }
+\label{selfsuppressfrg}
+ 
+\end{figure}
+\begin{figure}
+
+ \includegraphics[scale=0.3]{images/Fermi_occupation_sevsnose.png}
+ \caption{Occupation in the BZ: left non interacting, right with self energy from fRG.}
+\label{fermisurface}
+ 
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.70]{images/dmf2rglam.png}
+\caption{Flow of the maximum absolute value of the real part of the magnetic and charge channel in DMF$^2$RG, with and without self-energy feedback.} \label{dmf2rglam}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.25]{images/Merged_dmf2rg_se.png}
+\caption{Frequency dependence of the $\Phi$'s in DMF$^2$RG with self-energy feedback.} \label{dmf2rfreq}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.25]{images/Merged_dmf2rg_se_freq.png}
+\caption{DMFT and DMF$^2$RG self energy at the critical scale.} \label{dmf2self}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.25]{images/Perp_ladder_density.png}
+\caption{Charge channel calculated with RPA method for $\Omega=0$ (left) and $\Omega=2\pi/\beta$ (right). }
+ \label{Perpladder}
+
+\end{figure}
+\begin{figure}
+
+\includegraphics[scale=0.7]{images/Bubble_ph.png}
+\caption{PH Bubble as a function of fermionic frequency $\nu$ at $\boldsymbol{Q}=(0,0)$. }
+ \label{bubble}
+
+\end{figure}
